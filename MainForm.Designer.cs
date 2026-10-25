@@ -36,7 +36,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(999, 586);
             this.Name = "MainForm";
-            this.Text = "Form1";
+            this.Text = "Winflux";
             this.ResumeLayout(false);
 
         }

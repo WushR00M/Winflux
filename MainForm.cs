@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DarkModeForms;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,9 +13,15 @@ namespace Winflux
 {
     public partial class MainForm : Form
     {
+        private DarkModeCS dm = null;
+
         public MainForm()
         {
             InitializeComponent();
+            dm = new DarkModeCS(this)
+            {
+                ColorMode = DarkModeCS.DisplayMode.DarkMode
+            };
         }
     }
 }
