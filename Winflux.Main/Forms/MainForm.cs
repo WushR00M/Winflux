@@ -90,7 +90,8 @@ namespace Winflux
             if (Messenger.MessageBox("Save any and all work before proceeding. All BSODs should have zero harmful effects on your PC.", "NotMyFault",
                MessageBoxButtons.YesNo, MessageBoxIcon.None) == DialogResult.Yes)
             {
-                
+                NotMyFault notMyFault = new NotMyFault();
+                notMyFault.ShowDialog();
             }
         }
     }
