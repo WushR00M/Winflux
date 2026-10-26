@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
+using System.Diagnostics;
 using System.Drawing;
 using System.Linq;
 using System.Reflection;
@@ -103,5 +104,22 @@ namespace Winflux.Winflux.Main.Forms
             }
         }
         #endregion
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            ProcessStartInfo sInfo = new ProcessStartInfo("https://github.com/WushR00M/Winflux/");
+            Process.Start(sInfo);
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            ProcessStartInfo sInfo = new ProcessStartInfo("https://www.patreon.com/wushroomnimbus");
+            Process.Start(sInfo);
+        }
     }
 }

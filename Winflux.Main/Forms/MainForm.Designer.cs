@@ -294,11 +294,15 @@
             this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.exitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.externalToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.importChangesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.exportChangesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
             this.treeView1 = new System.Windows.Forms.TreeView();
+            this.powerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.restartExplorerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.logOutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.powerCycleRestartPCToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripSeparator();
+            this.toolStripMenuItem2 = new System.Windows.Forms.ToolStripSeparator();
+            this.notMyFaultToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
@@ -309,7 +313,7 @@
             // 
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.fileToolStripMenuItem,
-            this.externalToolStripMenuItem});
+            this.powerToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(999, 24);
@@ -328,35 +332,16 @@
             // aboutToolStripMenuItem
             // 
             this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
-            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(109, 22);
+            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.aboutToolStripMenuItem.Text = "About";
+            this.aboutToolStripMenuItem.Click += new System.EventHandler(this.aboutToolStripMenuItem_Click);
             // 
             // exitToolStripMenuItem
             // 
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            this.exitToolStripMenuItem.Size = new System.Drawing.Size(109, 22);
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.exitToolStripMenuItem.Text = "Exit";
-            // 
-            // externalToolStripMenuItem
-            // 
-            this.externalToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.importChangesToolStripMenuItem,
-            this.exportChangesToolStripMenuItem});
-            this.externalToolStripMenuItem.Name = "externalToolStripMenuItem";
-            this.externalToolStripMenuItem.Size = new System.Drawing.Size(75, 20);
-            this.externalToolStripMenuItem.Text = "External";
-            // 
-            // importChangesToolStripMenuItem
-            // 
-            this.importChangesToolStripMenuItem.Name = "importChangesToolStripMenuItem";
-            this.importChangesToolStripMenuItem.Size = new System.Drawing.Size(172, 22);
-            this.importChangesToolStripMenuItem.Text = "Import Changes";
-            // 
-            // exportChangesToolStripMenuItem
-            // 
-            this.exportChangesToolStripMenuItem.Name = "exportChangesToolStripMenuItem";
-            this.exportChangesToolStripMenuItem.Size = new System.Drawing.Size(172, 22);
-            this.exportChangesToolStripMenuItem.Text = "Export Changes";
+            this.exitToolStripMenuItem.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
             // 
             // splitContainer1
             // 
@@ -651,6 +636,57 @@
             this.treeView1.Size = new System.Drawing.Size(327, 556);
             this.treeView1.TabIndex = 2;
             // 
+            // powerToolStripMenuItem
+            // 
+            this.powerToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.restartExplorerToolStripMenuItem,
+            this.toolStripMenuItem1,
+            this.logOutToolStripMenuItem,
+            this.powerCycleRestartPCToolStripMenuItem,
+            this.toolStripMenuItem2,
+            this.notMyFaultToolStripMenuItem});
+            this.powerToolStripMenuItem.Name = "powerToolStripMenuItem";
+            this.powerToolStripMenuItem.Size = new System.Drawing.Size(54, 20);
+            this.powerToolStripMenuItem.Text = "Power";
+            // 
+            // restartExplorerToolStripMenuItem
+            // 
+            this.restartExplorerToolStripMenuItem.Name = "restartExplorerToolStripMenuItem";
+            this.restartExplorerToolStripMenuItem.Size = new System.Drawing.Size(242, 22);
+            this.restartExplorerToolStripMenuItem.Text = "Restart Explorer";
+            this.restartExplorerToolStripMenuItem.Click += new System.EventHandler(this.restartExplorerToolStripMenuItem_Click);
+            // 
+            // logOutToolStripMenuItem
+            // 
+            this.logOutToolStripMenuItem.Name = "logOutToolStripMenuItem";
+            this.logOutToolStripMenuItem.Size = new System.Drawing.Size(242, 22);
+            this.logOutToolStripMenuItem.Text = "Log Out";
+            this.logOutToolStripMenuItem.Click += new System.EventHandler(this.logOutToolStripMenuItem_Click);
+            // 
+            // powerCycleRestartPCToolStripMenuItem
+            // 
+            this.powerCycleRestartPCToolStripMenuItem.Name = "powerCycleRestartPCToolStripMenuItem";
+            this.powerCycleRestartPCToolStripMenuItem.Size = new System.Drawing.Size(242, 22);
+            this.powerCycleRestartPCToolStripMenuItem.Text = "Power Cycle (Restart PC)";
+            this.powerCycleRestartPCToolStripMenuItem.Click += new System.EventHandler(this.powerCycleRestartPCToolStripMenuItem_Click);
+            // 
+            // toolStripMenuItem1
+            // 
+            this.toolStripMenuItem1.Name = "toolStripMenuItem1";
+            this.toolStripMenuItem1.Size = new System.Drawing.Size(239, 6);
+            // 
+            // toolStripMenuItem2
+            // 
+            this.toolStripMenuItem2.Name = "toolStripMenuItem2";
+            this.toolStripMenuItem2.Size = new System.Drawing.Size(239, 6);
+            // 
+            // notMyFaultToolStripMenuItem
+            // 
+            this.notMyFaultToolStripMenuItem.Name = "notMyFaultToolStripMenuItem";
+            this.notMyFaultToolStripMenuItem.Size = new System.Drawing.Size(242, 22);
+            this.notMyFaultToolStripMenuItem.Text = "NotMyFault";
+            this.notMyFaultToolStripMenuItem.Click += new System.EventHandler(this.notMyFaultToolStripMenuItem_Click);
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -680,11 +716,15 @@
         private System.Windows.Forms.ToolStripMenuItem fileToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem aboutToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem exitToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem externalToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem importChangesToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem exportChangesToolStripMenuItem;
         private System.Windows.Forms.SplitContainer splitContainer1;
         private System.Windows.Forms.TreeView treeView1;
+        private System.Windows.Forms.ToolStripMenuItem powerToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem restartExplorerToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem logOutToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem powerCycleRestartPCToolStripMenuItem;
+        private System.Windows.Forms.ToolStripSeparator toolStripMenuItem1;
+        private System.Windows.Forms.ToolStripSeparator toolStripMenuItem2;
+        private System.Windows.Forms.ToolStripMenuItem notMyFaultToolStripMenuItem;
     }
 }
 
