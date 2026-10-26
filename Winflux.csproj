@@ -67,6 +67,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Winflux.Main\Forms\AboutWinflux.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Winflux.Main\Forms\AboutWinflux.Designer.cs">
+      <DependentUpon>AboutWinflux.cs</DependentUpon>
+    </Compile>
     <Compile Include="Winflux.Main\Forms\MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -86,6 +92,9 @@
       <SubType>Component</SubType>
     </Compile>
     <Compile Include="Winflux.Internal\Libraries\Messenger.cs" />
+    <EmbeddedResource Include="Winflux.Main\Forms\AboutWinflux.resx">
+      <DependentUpon>AboutWinflux.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Winflux.Main\Forms\MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -114,6 +123,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Winflux.Assets\main.ico" />
+    <Content Include="Winflux.Assets\main.png" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
