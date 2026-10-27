@@ -56,6 +56,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Management" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -98,6 +99,18 @@
       <SubType>Component</SubType>
     </Compile>
     <Compile Include="Winflux.Internal\Libraries\Messenger.cs" />
+    <Compile Include="Winflux.Main\Views\Informative\AboutWF_Tree.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Winflux.Main\Views\Informative\AboutWF_Tree.Designer.cs">
+      <DependentUpon>AboutWF_Tree.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Winflux.Main\Views\Informative\SystemInformation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Winflux.Main\Views\Informative\SystemInformation.Designer.cs">
+      <DependentUpon>SystemInformation.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Winflux.Main\Forms\AboutWinflux.resx">
       <DependentUpon>AboutWinflux.cs</DependentUpon>
     </EmbeddedResource>
@@ -115,6 +128,12 @@
     </Compile>
     <EmbeddedResource Include="Winflux.Main\Forms\NotMyFault.resx">
       <DependentUpon>NotMyFault.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Winflux.Main\Views\Informative\AboutWF_Tree.resx">
+      <DependentUpon>AboutWF_Tree.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Winflux.Main\Views\Informative\SystemInformation.resx">
+      <DependentUpon>SystemInformation.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Winflux.Internal\Config\app.manifest" />
     <None Include="Properties\Settings.settings">

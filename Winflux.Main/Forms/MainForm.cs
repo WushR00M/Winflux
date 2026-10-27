@@ -10,12 +10,14 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using Winflux.Winflux.Main.Forms;
+using Winflux.Winflux.Main.Views.Informative;
 
 namespace Winflux
 {
     public partial class MainForm : Form
     {
         private DarkModeCS dm = null;
+        private Form dispForm = null;
 
         public MainForm()
         {
@@ -92,6 +94,34 @@ namespace Winflux
             {
                 NotMyFault notMyFault = new NotMyFault();
                 notMyFault.ShowDialog();
+            }
+        }
+
+        private void treeView1_AfterSelect(object sender, TreeViewEventArgs e)
+        {
+            TreeNode tn = treeView1.SelectedNode;
+
+            if (tn == null) { return; }
+            else if (tn.Text == "System Information") {
+                splitContainer1.Panel2.Controls.Clear();
+                Winflux.Main.Views.Informative.SystemInformation dispForm = new Winflux.Main.Views.Informative.SystemInformation();
+
+                dispForm.TopLevel = false;
+                dispForm.FormBorderStyle = FormBorderStyle.None;
+
+                splitContainer1.Panel2.Controls.Add(dispForm);
+                dispForm.Show();
+            }
+            else if (tn.Text == "About Winflux")
+            {
+                splitContainer1.Panel2.Controls.Clear();
+                AboutWF_Tree dispForm = new AboutWF_Tree();
+
+                dispForm.TopLevel = false;
+                dispForm.FormBorderStyle = FormBorderStyle.None;
+
+                splitContainer1.Panel2.Controls.Add(dispForm);
+                dispForm.Show();
             }
         }
     }

@@ -294,15 +294,15 @@
             this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.exitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.splitContainer1 = new System.Windows.Forms.SplitContainer();
-            this.treeView1 = new System.Windows.Forms.TreeView();
             this.powerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.restartExplorerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripSeparator();
             this.logOutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.powerCycleRestartPCToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripSeparator();
             this.toolStripMenuItem2 = new System.Windows.Forms.ToolStripSeparator();
             this.notMyFaultToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.splitContainer1 = new System.Windows.Forms.SplitContainer();
+            this.treeView1 = new System.Windows.Forms.TreeView();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
@@ -332,16 +332,67 @@
             // aboutToolStripMenuItem
             // 
             this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
-            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(109, 22);
             this.aboutToolStripMenuItem.Text = "About";
             this.aboutToolStripMenuItem.Click += new System.EventHandler(this.aboutToolStripMenuItem_Click);
             // 
             // exitToolStripMenuItem
             // 
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            this.exitToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(109, 22);
             this.exitToolStripMenuItem.Text = "Exit";
             this.exitToolStripMenuItem.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
+            // 
+            // powerToolStripMenuItem
+            // 
+            this.powerToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.restartExplorerToolStripMenuItem,
+            this.toolStripMenuItem1,
+            this.logOutToolStripMenuItem,
+            this.powerCycleRestartPCToolStripMenuItem,
+            this.toolStripMenuItem2,
+            this.notMyFaultToolStripMenuItem});
+            this.powerToolStripMenuItem.Name = "powerToolStripMenuItem";
+            this.powerToolStripMenuItem.Size = new System.Drawing.Size(54, 20);
+            this.powerToolStripMenuItem.Text = "Power";
+            // 
+            // restartExplorerToolStripMenuItem
+            // 
+            this.restartExplorerToolStripMenuItem.Name = "restartExplorerToolStripMenuItem";
+            this.restartExplorerToolStripMenuItem.Size = new System.Drawing.Size(242, 22);
+            this.restartExplorerToolStripMenuItem.Text = "Restart Explorer";
+            this.restartExplorerToolStripMenuItem.Click += new System.EventHandler(this.restartExplorerToolStripMenuItem_Click);
+            // 
+            // toolStripMenuItem1
+            // 
+            this.toolStripMenuItem1.Name = "toolStripMenuItem1";
+            this.toolStripMenuItem1.Size = new System.Drawing.Size(239, 6);
+            // 
+            // logOutToolStripMenuItem
+            // 
+            this.logOutToolStripMenuItem.Name = "logOutToolStripMenuItem";
+            this.logOutToolStripMenuItem.Size = new System.Drawing.Size(242, 22);
+            this.logOutToolStripMenuItem.Text = "Log Out";
+            this.logOutToolStripMenuItem.Click += new System.EventHandler(this.logOutToolStripMenuItem_Click);
+            // 
+            // powerCycleRestartPCToolStripMenuItem
+            // 
+            this.powerCycleRestartPCToolStripMenuItem.Name = "powerCycleRestartPCToolStripMenuItem";
+            this.powerCycleRestartPCToolStripMenuItem.Size = new System.Drawing.Size(242, 22);
+            this.powerCycleRestartPCToolStripMenuItem.Text = "Power Cycle (Restart PC)";
+            this.powerCycleRestartPCToolStripMenuItem.Click += new System.EventHandler(this.powerCycleRestartPCToolStripMenuItem_Click);
+            // 
+            // toolStripMenuItem2
+            // 
+            this.toolStripMenuItem2.Name = "toolStripMenuItem2";
+            this.toolStripMenuItem2.Size = new System.Drawing.Size(239, 6);
+            // 
+            // notMyFaultToolStripMenuItem
+            // 
+            this.notMyFaultToolStripMenuItem.Name = "notMyFaultToolStripMenuItem";
+            this.notMyFaultToolStripMenuItem.Size = new System.Drawing.Size(242, 22);
+            this.notMyFaultToolStripMenuItem.Text = "NotMyFault";
+            this.notMyFaultToolStripMenuItem.Click += new System.EventHandler(this.notMyFaultToolStripMenuItem_Click);
             // 
             // splitContainer1
             // 
@@ -635,57 +686,7 @@
             treeNode133});
             this.treeView1.Size = new System.Drawing.Size(327, 556);
             this.treeView1.TabIndex = 2;
-            // 
-            // powerToolStripMenuItem
-            // 
-            this.powerToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.restartExplorerToolStripMenuItem,
-            this.toolStripMenuItem1,
-            this.logOutToolStripMenuItem,
-            this.powerCycleRestartPCToolStripMenuItem,
-            this.toolStripMenuItem2,
-            this.notMyFaultToolStripMenuItem});
-            this.powerToolStripMenuItem.Name = "powerToolStripMenuItem";
-            this.powerToolStripMenuItem.Size = new System.Drawing.Size(54, 20);
-            this.powerToolStripMenuItem.Text = "Power";
-            // 
-            // restartExplorerToolStripMenuItem
-            // 
-            this.restartExplorerToolStripMenuItem.Name = "restartExplorerToolStripMenuItem";
-            this.restartExplorerToolStripMenuItem.Size = new System.Drawing.Size(242, 22);
-            this.restartExplorerToolStripMenuItem.Text = "Restart Explorer";
-            this.restartExplorerToolStripMenuItem.Click += new System.EventHandler(this.restartExplorerToolStripMenuItem_Click);
-            // 
-            // logOutToolStripMenuItem
-            // 
-            this.logOutToolStripMenuItem.Name = "logOutToolStripMenuItem";
-            this.logOutToolStripMenuItem.Size = new System.Drawing.Size(242, 22);
-            this.logOutToolStripMenuItem.Text = "Log Out";
-            this.logOutToolStripMenuItem.Click += new System.EventHandler(this.logOutToolStripMenuItem_Click);
-            // 
-            // powerCycleRestartPCToolStripMenuItem
-            // 
-            this.powerCycleRestartPCToolStripMenuItem.Name = "powerCycleRestartPCToolStripMenuItem";
-            this.powerCycleRestartPCToolStripMenuItem.Size = new System.Drawing.Size(242, 22);
-            this.powerCycleRestartPCToolStripMenuItem.Text = "Power Cycle (Restart PC)";
-            this.powerCycleRestartPCToolStripMenuItem.Click += new System.EventHandler(this.powerCycleRestartPCToolStripMenuItem_Click);
-            // 
-            // toolStripMenuItem1
-            // 
-            this.toolStripMenuItem1.Name = "toolStripMenuItem1";
-            this.toolStripMenuItem1.Size = new System.Drawing.Size(239, 6);
-            // 
-            // toolStripMenuItem2
-            // 
-            this.toolStripMenuItem2.Name = "toolStripMenuItem2";
-            this.toolStripMenuItem2.Size = new System.Drawing.Size(239, 6);
-            // 
-            // notMyFaultToolStripMenuItem
-            // 
-            this.notMyFaultToolStripMenuItem.Name = "notMyFaultToolStripMenuItem";
-            this.notMyFaultToolStripMenuItem.Size = new System.Drawing.Size(242, 22);
-            this.notMyFaultToolStripMenuItem.Text = "NotMyFault";
-            this.notMyFaultToolStripMenuItem.Click += new System.EventHandler(this.notMyFaultToolStripMenuItem_Click);
+            this.treeView1.AfterSelect += new System.Windows.Forms.TreeViewEventHandler(this.treeView1_AfterSelect);
             // 
             // MainForm
             // 
