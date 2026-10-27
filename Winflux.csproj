@@ -99,6 +99,12 @@
       <SubType>Component</SubType>
     </Compile>
     <Compile Include="Winflux.Internal\Libraries\Messenger.cs" />
+    <Compile Include="Winflux.Main\Views\Appearance\BetterContext.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Winflux.Main\Views\Appearance\BetterContext.Designer.cs">
+      <DependentUpon>BetterContext.cs</DependentUpon>
+    </Compile>
     <Compile Include="Winflux.Main\Views\Informative\AboutWF_Tree.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -128,6 +134,9 @@
     </Compile>
     <EmbeddedResource Include="Winflux.Main\Forms\NotMyFault.resx">
       <DependentUpon>NotMyFault.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Winflux.Main\Views\Appearance\BetterContext.resx">
+      <DependentUpon>BetterContext.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Winflux.Main\Views\Informative\AboutWF_Tree.resx">
       <DependentUpon>AboutWF_Tree.cs</DependentUpon>
