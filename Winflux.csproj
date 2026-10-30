@@ -111,12 +111,19 @@
     <Compile Include="Winflux.Main\Views\Informative\AboutWF_Tree.Designer.cs">
       <DependentUpon>AboutWF_Tree.cs</DependentUpon>
     </Compile>
+    <Compile Include="Winflux.Main\Views\Informative\WindowsActivStats.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Winflux.Main\Views\Informative\WindowsActivStats.Designer.cs">
+      <DependentUpon>WindowsActivStats.cs</DependentUpon>
+    </Compile>
     <Compile Include="Winflux.Main\Views\Informative\SystemInformation.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Winflux.Main\Views\Informative\SystemInformation.Designer.cs">
       <DependentUpon>SystemInformation.cs</DependentUpon>
     </Compile>
+    <Compile Include="Winflux.Main\Views\Informative\WindowsActivStatsHelpers.cs" />
     <EmbeddedResource Include="Winflux.Main\Forms\AboutWinflux.resx">
       <DependentUpon>AboutWinflux.cs</DependentUpon>
     </EmbeddedResource>
@@ -143,6 +150,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Winflux.Main\Views\Informative\SystemInformation.resx">
       <DependentUpon>SystemInformation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Winflux.Main\Views\Informative\WindowsActivStats.resx">
+      <DependentUpon>WindowsActivStats.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Winflux.Internal\Config\app.manifest" />
     <None Include="Properties\Settings.settings">

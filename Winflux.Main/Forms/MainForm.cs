@@ -77,10 +77,10 @@ namespace Winflux
         private void treeView1_AfterSelect(object sender, TreeViewEventArgs e)
         {
             TreeNode tn = treeView1.SelectedNode;
+            splitContainer1.Panel2.Controls.Clear();
 
             if (tn == null) { return; }
             else if (tn.Text == "System Information") {
-                splitContainer1.Panel2.Controls.Clear();
                 Winflux.Main.Views.Informative.SystemInformation dispForm = new Winflux.Main.Views.Informative.SystemInformation();
 
                 dispForm.TopLevel = false;
@@ -91,7 +91,6 @@ namespace Winflux
             }
             else if (tn.Text == "About Winflux")
             {
-                splitContainer1.Panel2.Controls.Clear();
                 AboutWF_Tree dispForm = new AboutWF_Tree();
 
                 dispForm.TopLevel = false;
@@ -102,9 +101,18 @@ namespace Winflux
             }
             else if (tn.Text == "View Source Page")
             {
-                splitContainer1.Panel2.Controls.Clear();
                 ProcessStartInfo sInfo = new ProcessStartInfo("https://github.com/WushR00M/Winflux/");
                 Process.Start(sInfo);
+            }
+            else if (tn.Text == "Check Windows Activation Status")
+            {
+                WindowsActivStats dispForm = new WindowsActivStats();
+
+                dispForm.TopLevel = false;
+                dispForm.FormBorderStyle = FormBorderStyle.None;
+
+                splitContainer1.Panel2.Controls.Add(dispForm);
+                dispForm.Show();
             }
             else if (tn.Text == "Enable Better Context Menus")
             {

@@ -23,6 +23,7 @@ namespace Winflux
 
     public static class GlobalFunc
     {
+        public static bool checkedActivation = false;
         public static void ExecuteCommand(string command)
         {
             var processInfo = new ProcessStartInfo("cmd.exe", "/c " + command);
