@@ -10,6 +10,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using Winflux.Winflux.Main.Forms;
+using Winflux.Winflux.Main.Views;
 using Winflux.Winflux.Main.Views.Appearance;
 using Winflux.Winflux.Main.Views.Informative;
 
@@ -116,8 +117,17 @@ namespace Winflux
             }
             else if (tn.Text == "Enable Better Context Menus")
             {
-                splitContainer1.Panel2.Controls.Clear();
                 BetterContext dispForm = new BetterContext();
+
+                dispForm.TopLevel = false;
+                dispForm.FormBorderStyle = FormBorderStyle.None;
+
+                splitContainer1.Panel2.Controls.Add(dispForm);
+                dispForm.Show();
+            }
+            else if (tn.Text == "Activate \'Aero Lite\'")
+            {
+                AeroLite dispForm = new AeroLite();
 
                 dispForm.TopLevel = false;
                 dispForm.FormBorderStyle = FormBorderStyle.None;

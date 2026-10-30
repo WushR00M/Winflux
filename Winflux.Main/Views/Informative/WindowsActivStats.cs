@@ -19,6 +19,7 @@ namespace Winflux.Winflux.Main.Views.Informative
         public WindowsActivStats()
         {
             InitializeComponent();
+            // i'll figure out how to optimize this later lol
 
             if (GlobalFunc.checkedActivation == true)
             {

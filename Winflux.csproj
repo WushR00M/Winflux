@@ -99,6 +99,12 @@
       <SubType>Component</SubType>
     </Compile>
     <Compile Include="Winflux.Internal\Libraries\Messenger.cs" />
+    <Compile Include="Winflux.Main\Views\AeroLite.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Winflux.Main\Views\AeroLite.Designer.cs">
+      <DependentUpon>AeroLite.cs</DependentUpon>
+    </Compile>
     <Compile Include="Winflux.Main\Views\Appearance\BetterContext.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -141,6 +147,9 @@
     </Compile>
     <EmbeddedResource Include="Winflux.Main\Forms\NotMyFault.resx">
       <DependentUpon>NotMyFault.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Winflux.Main\Views\AeroLite.resx">
+      <DependentUpon>AeroLite.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Winflux.Main\Views\Appearance\BetterContext.resx">
       <DependentUpon>BetterContext.cs</DependentUpon>
