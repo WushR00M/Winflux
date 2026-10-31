@@ -18,10 +18,10 @@ and more coming soon.
 
 ## Installation
 
-To run Winflux, you must have the .NET 6.0 runtime installed. You can download it from [Microsoft's official website](https://dotnet.microsoft.com/en-us/download/dotnet/6.0).
+To run Winflux, you must have the .NET 9.0.22 runtime installed. You can download it from [Microsoft's official website](https://dotnet.microsoft.com/en-us/download/dotnet/6.0).
 Then, once you run Winflux, you will need to give Winflux administrative permissions to allow registry tweaks to take effect, amongst other features.
 
 ## Compiling
 
-To compile Winflux, you will need the .NET 6.0 SDK installed. You can download it from [Microsoft's official website](https://dotnet.microsoft.com/en-us/download/dotnet/6.0).
+To compile Winflux, you will need the .NET 9.0.22 SDK installed. You can download it from [Microsoft's official website](https://dotnet.microsoft.com/en-us/download/dotnet/6.0).
 You can then clone the repository and build it using Visual Studio 2022 or later, or by using the `dotnet build` command in a terminal. Your terminal or Visual Studio must be running with administrative privileges, otherwise it will not build and you will be prompted to restart and run as an adminstrator.
