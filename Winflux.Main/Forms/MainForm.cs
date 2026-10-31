@@ -159,6 +159,16 @@ namespace Winflux
             {
                 GlobalFunc.ExecuteCommand("rundll32.exe desk.cpl,InstallScreenSaver");
             }
+            else if (tn.Text == "Alt+Tab Appearance")
+            {
+                AltTabApp dispForm = new AltTabApp();
+
+                dispForm.TopLevel = false;
+                dispForm.FormBorderStyle = FormBorderStyle.None;
+
+                splitContainer1.Panel2.Controls.Add(dispForm);
+                dispForm.Show();
+            }
         }
     }
 }

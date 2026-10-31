@@ -105,6 +105,12 @@
     <Compile Include="Winflux.Main\Views\Appearance\AeroLite.Designer.cs">
       <DependentUpon>AeroLite.cs</DependentUpon>
     </Compile>
+    <Compile Include="Winflux.Main\Views\Appearance\AltTabApp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Winflux.Main\Views\Appearance\AltTabApp.Designer.cs">
+      <DependentUpon>AltTabApp.cs</DependentUpon>
+    </Compile>
     <Compile Include="Winflux.Main\Views\Appearance\BetterContext.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -162,6 +168,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Winflux.Main\Views\Appearance\AeroLite.resx">
       <DependentUpon>AeroLite.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Winflux.Main\Views\Appearance\AltTabApp.resx">
+      <DependentUpon>AltTabApp.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Winflux.Main\Views\Appearance\BetterContext.resx">
       <DependentUpon>BetterContext.cs</DependentUpon>
