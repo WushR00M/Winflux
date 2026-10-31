@@ -27,24 +27,21 @@ namespace Winflux.Winflux.Main.Views.Informative
             StringBuilder sb = new StringBuilder();
 
             label1.Text = "System Information";
-            sb.AppendLine("Operating System:");
             sb.AppendLine(GetManagementObject("Win32_OperatingSystem", "Caption", "Windows Version"));
             sb.AppendLine(GetManagementObject("Win32_OperatingSystem", "Version", "OS Build"));
             sb.AppendLine(GetManagementObject("Win32_OperatingSystem", "Manufacturer", "Manufacturer"));
             sb.AppendLine();
 
-            sb.AppendLine("Processor:");
             sb.AppendLine(GetManagementObject("Win32_Processor", "Name", "Processor Name"));
             sb.AppendLine(GetManagementObject("Win32_Processor", "Manufacturer", "Processor Manufacturer"));
             sb.AppendLine(GetManagementObject("Win32_Processor", "Description", "Processor Description"));
             sb.AppendLine();
 
-            sb.AppendLine("Memory:");
             sb.AppendLine(GetManagementObject("Win32_PhysicalMemory", "Capacity", "Memory Capacity"));
             sb.AppendLine(GetManagementObject("Win32_PhysicalMemory", "Speed", "Memory Speed"));
             sb.AppendLine();
 
-            label2.Text = sb.ToString();
+            richTextBox1.Text = sb.ToString();
         }
         private string GetManagementObject(string query, string property, string label)
         {
