@@ -100,7 +100,7 @@ namespace Winflux
                 splitContainer1.Panel2.Controls.Add(dispForm);
                 dispForm.Show();
             }
-            else if (tn.Text == "View Source Page")
+            else if (tn.Text == "Visit Source Page")
             {
                 ProcessStartInfo sInfo = new ProcessStartInfo("https://github.com/WushR00M/Winflux/");
                 Process.Start(sInfo);
@@ -134,6 +134,30 @@ namespace Winflux
 
                 splitContainer1.Panel2.Controls.Add(dispForm);
                 dispForm.Show();
+            }
+            else if (tn.Text == "Activate Dark Mode")
+            {
+                UseSysDarkMode dispForm = new UseSysDarkMode();
+
+                dispForm.TopLevel = false;
+                dispForm.FormBorderStyle = FormBorderStyle.None;
+
+                splitContainer1.Panel2.Controls.Add(dispForm);
+                dispForm.Show();
+            }
+            else if (tn.Text == "Enable Hidden \'Education\' Themes")
+            {
+                EduThemes dispForm = new EduThemes();
+
+                dispForm.TopLevel = false;
+                dispForm.FormBorderStyle = FormBorderStyle.None;
+
+                splitContainer1.Panel2.Controls.Add(dispForm);
+                dispForm.Show();
+            }
+            else if (tn.Text == "Manage Screen Savers")
+            {
+                GlobalFunc.ExecuteCommand("rundll32.exe desk.cpl,InstallScreenSaver");
             }
         }
     }

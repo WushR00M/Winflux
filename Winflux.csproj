@@ -99,10 +99,10 @@
       <SubType>Component</SubType>
     </Compile>
     <Compile Include="Winflux.Internal\Libraries\Messenger.cs" />
-    <Compile Include="Winflux.Main\Views\AeroLite.cs">
+    <Compile Include="Winflux.Main\Views\Appearance\AeroLite.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Winflux.Main\Views\AeroLite.Designer.cs">
+    <Compile Include="Winflux.Main\Views\Appearance\AeroLite.Designer.cs">
       <DependentUpon>AeroLite.cs</DependentUpon>
     </Compile>
     <Compile Include="Winflux.Main\Views\Appearance\BetterContext.cs">
@@ -110,6 +110,18 @@
     </Compile>
     <Compile Include="Winflux.Main\Views\Appearance\BetterContext.Designer.cs">
       <DependentUpon>BetterContext.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Winflux.Main\Views\Appearance\EduThemes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Winflux.Main\Views\Appearance\EduThemes.Designer.cs">
+      <DependentUpon>EduThemes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Winflux.Main\Views\Appearance\UseSysDarkMode.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Winflux.Main\Views\Appearance\UseSysDarkMode.Designer.cs">
+      <DependentUpon>UseSysDarkMode.cs</DependentUpon>
     </Compile>
     <Compile Include="Winflux.Main\Views\Informative\AboutWF_Tree.cs">
       <SubType>Form</SubType>
@@ -148,11 +160,17 @@
     <EmbeddedResource Include="Winflux.Main\Forms\NotMyFault.resx">
       <DependentUpon>NotMyFault.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Winflux.Main\Views\AeroLite.resx">
+    <EmbeddedResource Include="Winflux.Main\Views\Appearance\AeroLite.resx">
       <DependentUpon>AeroLite.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Winflux.Main\Views\Appearance\BetterContext.resx">
       <DependentUpon>BetterContext.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Winflux.Main\Views\Appearance\EduThemes.resx">
+      <DependentUpon>EduThemes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Winflux.Main\Views\Appearance\UseSysDarkMode.resx">
+      <DependentUpon>UseSysDarkMode.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Winflux.Main\Views\Informative\AboutWF_Tree.resx">
       <DependentUpon>AboutWF_Tree.cs</DependentUpon>

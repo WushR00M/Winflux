@@ -40,26 +40,25 @@
             System.Windows.Forms.TreeNode treeNode7 = new System.Windows.Forms.TreeNode("Activate Dark Mode");
             System.Windows.Forms.TreeNode treeNode8 = new System.Windows.Forms.TreeNode("Enable Hidden \'Education\' Themes");
             System.Windows.Forms.TreeNode treeNode9 = new System.Windows.Forms.TreeNode("Manage Screen Savers");
-            System.Windows.Forms.TreeNode treeNode10 = new System.Windows.Forms.TreeNode("Increase Transparency on Taskbar");
-            System.Windows.Forms.TreeNode treeNode11 = new System.Windows.Forms.TreeNode("Theming", new System.Windows.Forms.TreeNode[] {
+            System.Windows.Forms.TreeNode treeNode10 = new System.Windows.Forms.TreeNode("Theming", new System.Windows.Forms.TreeNode[] {
             treeNode6,
             treeNode7,
             treeNode8,
-            treeNode9,
-            treeNode10});
-            System.Windows.Forms.TreeNode treeNode12 = new System.Windows.Forms.TreeNode("Alt+Tab Appearance");
-            System.Windows.Forms.TreeNode treeNode13 = new System.Windows.Forms.TreeNode("Inactive Title Bar Color");
-            System.Windows.Forms.TreeNode treeNode14 = new System.Windows.Forms.TreeNode("Slow Animations Hotkey");
-            System.Windows.Forms.TreeNode treeNode15 = new System.Windows.Forms.TreeNode("Edit Startup Sound");
-            System.Windows.Forms.TreeNode treeNode16 = new System.Windows.Forms.TreeNode("Edit Icon Spacing");
-            System.Windows.Forms.TreeNode treeNode17 = new System.Windows.Forms.TreeNode("Edit Context Menu Height");
-            System.Windows.Forms.TreeNode treeNode18 = new System.Windows.Forms.TreeNode("Edit Scrollbar Dimensions");
-            System.Windows.Forms.TreeNode treeNode19 = new System.Windows.Forms.TreeNode("Edit Window Border Sizes");
-            System.Windows.Forms.TreeNode treeNode20 = new System.Windows.Forms.TreeNode("Edit Window Title Heights");
-            System.Windows.Forms.TreeNode treeNode21 = new System.Windows.Forms.TreeNode("Change System Font Defaults");
-            System.Windows.Forms.TreeNode treeNode22 = new System.Windows.Forms.TreeNode("Tweak Taskbar Flash Count");
-            System.Windows.Forms.TreeNode treeNode23 = new System.Windows.Forms.TreeNode("Tweak Item Width in Taskbar");
-            System.Windows.Forms.TreeNode treeNode24 = new System.Windows.Forms.TreeNode("Advanced", new System.Windows.Forms.TreeNode[] {
+            treeNode9});
+            System.Windows.Forms.TreeNode treeNode11 = new System.Windows.Forms.TreeNode("Alt+Tab Appearance");
+            System.Windows.Forms.TreeNode treeNode12 = new System.Windows.Forms.TreeNode("Inactive Title Bar Color");
+            System.Windows.Forms.TreeNode treeNode13 = new System.Windows.Forms.TreeNode("Slow Animations Hotkey");
+            System.Windows.Forms.TreeNode treeNode14 = new System.Windows.Forms.TreeNode("Edit Startup Sound");
+            System.Windows.Forms.TreeNode treeNode15 = new System.Windows.Forms.TreeNode("Edit Icon Spacing");
+            System.Windows.Forms.TreeNode treeNode16 = new System.Windows.Forms.TreeNode("Edit Context Menu Height");
+            System.Windows.Forms.TreeNode treeNode17 = new System.Windows.Forms.TreeNode("Edit Scrollbar Dimensions");
+            System.Windows.Forms.TreeNode treeNode18 = new System.Windows.Forms.TreeNode("Edit Window Border Sizes");
+            System.Windows.Forms.TreeNode treeNode19 = new System.Windows.Forms.TreeNode("Edit Window Title Heights");
+            System.Windows.Forms.TreeNode treeNode20 = new System.Windows.Forms.TreeNode("Change System Font Defaults");
+            System.Windows.Forms.TreeNode treeNode21 = new System.Windows.Forms.TreeNode("Tweak Taskbar Flash Count");
+            System.Windows.Forms.TreeNode treeNode22 = new System.Windows.Forms.TreeNode("Tweak Item Width in Taskbar");
+            System.Windows.Forms.TreeNode treeNode23 = new System.Windows.Forms.TreeNode("Advanced", new System.Windows.Forms.TreeNode[] {
+            treeNode11,
             treeNode12,
             treeNode13,
             treeNode14,
@@ -70,30 +69,30 @@
             treeNode19,
             treeNode20,
             treeNode21,
-            treeNode22,
-            treeNode23});
-            System.Windows.Forms.TreeNode treeNode25 = new System.Windows.Forms.TreeNode("Tweak Theme Behavior");
-            System.Windows.Forms.TreeNode treeNode26 = new System.Windows.Forms.TreeNode("Revert Appearance Options");
-            System.Windows.Forms.TreeNode treeNode27 = new System.Windows.Forms.TreeNode("Configuration", new System.Windows.Forms.TreeNode[] {
-            treeNode25,
-            treeNode26});
-            System.Windows.Forms.TreeNode treeNode28 = new System.Windows.Forms.TreeNode("Appearance", new System.Windows.Forms.TreeNode[] {
-            treeNode5,
-            treeNode11,
+            treeNode22});
+            System.Windows.Forms.TreeNode treeNode24 = new System.Windows.Forms.TreeNode("Tweak Theme Behavior");
+            System.Windows.Forms.TreeNode treeNode25 = new System.Windows.Forms.TreeNode("Revert Appearance Options");
+            System.Windows.Forms.TreeNode treeNode26 = new System.Windows.Forms.TreeNode("Configuration", new System.Windows.Forms.TreeNode[] {
             treeNode24,
-            treeNode27});
-            System.Windows.Forms.TreeNode treeNode29 = new System.Windows.Forms.TreeNode("Disable Advertising");
-            System.Windows.Forms.TreeNode treeNode30 = new System.Windows.Forms.TreeNode("Disable Web Results in Search");
-            System.Windows.Forms.TreeNode treeNode31 = new System.Windows.Forms.TreeNode("Enable Registry Backups");
-            System.Windows.Forms.TreeNode treeNode32 = new System.Windows.Forms.TreeNode("Enable Aero Shake");
-            System.Windows.Forms.TreeNode treeNode33 = new System.Windows.Forms.TreeNode("Disable Microsoft Store Upselling");
-            System.Windows.Forms.TreeNode treeNode34 = new System.Windows.Forms.TreeNode("Disable Idle Maintenance");
-            System.Windows.Forms.TreeNode treeNode35 = new System.Windows.Forms.TreeNode("Disable Legacy File Download Block");
-            System.Windows.Forms.TreeNode treeNode36 = new System.Windows.Forms.TreeNode("Disable OneDrive User Folder Backup");
-            System.Windows.Forms.TreeNode treeNode37 = new System.Windows.Forms.TreeNode("Enable Emoji Picker for All Languages");
-            System.Windows.Forms.TreeNode treeNode38 = new System.Windows.Forms.TreeNode("Never Remove File Thumbnail Cache");
-            System.Windows.Forms.TreeNode treeNode39 = new System.Windows.Forms.TreeNode("Tweak PrintScreen Key Press Sound");
-            System.Windows.Forms.TreeNode treeNode40 = new System.Windows.Forms.TreeNode("General Tweaks", new System.Windows.Forms.TreeNode[] {
+            treeNode25});
+            System.Windows.Forms.TreeNode treeNode27 = new System.Windows.Forms.TreeNode("Appearance", new System.Windows.Forms.TreeNode[] {
+            treeNode5,
+            treeNode10,
+            treeNode23,
+            treeNode26});
+            System.Windows.Forms.TreeNode treeNode28 = new System.Windows.Forms.TreeNode("Disable Advertising");
+            System.Windows.Forms.TreeNode treeNode29 = new System.Windows.Forms.TreeNode("Disable Web Results in Search");
+            System.Windows.Forms.TreeNode treeNode30 = new System.Windows.Forms.TreeNode("Enable Registry Backups");
+            System.Windows.Forms.TreeNode treeNode31 = new System.Windows.Forms.TreeNode("Enable Aero Shake");
+            System.Windows.Forms.TreeNode treeNode32 = new System.Windows.Forms.TreeNode("Disable Microsoft Store Upselling");
+            System.Windows.Forms.TreeNode treeNode33 = new System.Windows.Forms.TreeNode("Disable Idle Maintenance");
+            System.Windows.Forms.TreeNode treeNode34 = new System.Windows.Forms.TreeNode("Disable Legacy File Download Block");
+            System.Windows.Forms.TreeNode treeNode35 = new System.Windows.Forms.TreeNode("Disable OneDrive User Folder Backup");
+            System.Windows.Forms.TreeNode treeNode36 = new System.Windows.Forms.TreeNode("Enable Emoji Picker for All Languages");
+            System.Windows.Forms.TreeNode treeNode37 = new System.Windows.Forms.TreeNode("Never Remove File Thumbnail Cache");
+            System.Windows.Forms.TreeNode treeNode38 = new System.Windows.Forms.TreeNode("Tweak PrintScreen Key Press Sound");
+            System.Windows.Forms.TreeNode treeNode39 = new System.Windows.Forms.TreeNode("General Tweaks", new System.Windows.Forms.TreeNode[] {
+            treeNode28,
             treeNode29,
             treeNode30,
             treeNode31,
@@ -103,18 +102,18 @@
             treeNode35,
             treeNode36,
             treeNode37,
-            treeNode38,
-            treeNode39});
-            System.Windows.Forms.TreeNode treeNode41 = new System.Windows.Forms.TreeNode("Disable Windows SmartScreen");
-            System.Windows.Forms.TreeNode treeNode42 = new System.Windows.Forms.TreeNode("Disable Driver Updates");
-            System.Windows.Forms.TreeNode treeNode43 = new System.Windows.Forms.TreeNode("Disable Store Application Updates");
-            System.Windows.Forms.TreeNode treeNode44 = new System.Windows.Forms.TreeNode("Disable System & Security Updates");
-            System.Windows.Forms.TreeNode treeNode45 = new System.Windows.Forms.TreeNode("Disable MRT Installation");
-            System.Windows.Forms.TreeNode treeNode46 = new System.Windows.Forms.TreeNode("Disable UAC");
-            System.Windows.Forms.TreeNode treeNode47 = new System.Windows.Forms.TreeNode("Enable Hidden Admin User");
-            System.Windows.Forms.TreeNode treeNode48 = new System.Windows.Forms.TreeNode("Enable UAC for Admin User");
-            System.Windows.Forms.TreeNode treeNode49 = new System.Windows.Forms.TreeNode("Disable Windows Defender");
-            System.Windows.Forms.TreeNode treeNode50 = new System.Windows.Forms.TreeNode("Windows Updates & Security", new System.Windows.Forms.TreeNode[] {
+            treeNode38});
+            System.Windows.Forms.TreeNode treeNode40 = new System.Windows.Forms.TreeNode("Disable Windows SmartScreen");
+            System.Windows.Forms.TreeNode treeNode41 = new System.Windows.Forms.TreeNode("Disable Driver Updates");
+            System.Windows.Forms.TreeNode treeNode42 = new System.Windows.Forms.TreeNode("Disable Store Application Updates");
+            System.Windows.Forms.TreeNode treeNode43 = new System.Windows.Forms.TreeNode("Disable System & Security Updates");
+            System.Windows.Forms.TreeNode treeNode44 = new System.Windows.Forms.TreeNode("Disable MRT Installation");
+            System.Windows.Forms.TreeNode treeNode45 = new System.Windows.Forms.TreeNode("Disable UAC");
+            System.Windows.Forms.TreeNode treeNode46 = new System.Windows.Forms.TreeNode("Enable Hidden Admin User");
+            System.Windows.Forms.TreeNode treeNode47 = new System.Windows.Forms.TreeNode("Enable UAC for Admin User");
+            System.Windows.Forms.TreeNode treeNode48 = new System.Windows.Forms.TreeNode("Disable Windows Defender");
+            System.Windows.Forms.TreeNode treeNode49 = new System.Windows.Forms.TreeNode("Windows Updates & Security", new System.Windows.Forms.TreeNode[] {
+            treeNode40,
             treeNode41,
             treeNode42,
             treeNode43,
@@ -122,73 +121,73 @@
             treeNode45,
             treeNode46,
             treeNode47,
-            treeNode48,
-            treeNode49});
-            System.Windows.Forms.TreeNode treeNode51 = new System.Windows.Forms.TreeNode("Enable CtrlAltDel Requirement");
-            System.Windows.Forms.TreeNode treeNode52 = new System.Windows.Forms.TreeNode("Enable Verbose Boot Messages");
-            System.Windows.Forms.TreeNode treeNode53 = new System.Windows.Forms.TreeNode("Tweak Login Message");
-            System.Windows.Forms.TreeNode treeNode54 = new System.Windows.Forms.TreeNode("Disable Setup Upselling");
-            System.Windows.Forms.TreeNode treeNode55 = new System.Windows.Forms.TreeNode("Tweak \'chkdsk\' Timeout");
-            System.Windows.Forms.TreeNode treeNode56 = new System.Windows.Forms.TreeNode("Enable Legacy Boot Controls");
-            System.Windows.Forms.TreeNode treeNode57 = new System.Windows.Forms.TreeNode("Always Display Boot Controls");
-            System.Windows.Forms.TreeNode treeNode58 = new System.Windows.Forms.TreeNode("Disable Background Blur in LogonUI");
-            System.Windows.Forms.TreeNode treeNode59 = new System.Windows.Forms.TreeNode("Disable Networks Button in LogonUI");
-            System.Windows.Forms.TreeNode treeNode60 = new System.Windows.Forms.TreeNode("Disable Power Button in LogonUI");
-            System.Windows.Forms.TreeNode treeNode61 = new System.Windows.Forms.TreeNode("LogonUI Appearance", new System.Windows.Forms.TreeNode[] {
+            treeNode48});
+            System.Windows.Forms.TreeNode treeNode50 = new System.Windows.Forms.TreeNode("Enable CtrlAltDel Requirement");
+            System.Windows.Forms.TreeNode treeNode51 = new System.Windows.Forms.TreeNode("Enable Verbose Boot Messages");
+            System.Windows.Forms.TreeNode treeNode52 = new System.Windows.Forms.TreeNode("Tweak Login Message");
+            System.Windows.Forms.TreeNode treeNode53 = new System.Windows.Forms.TreeNode("Disable Setup Upselling");
+            System.Windows.Forms.TreeNode treeNode54 = new System.Windows.Forms.TreeNode("Tweak \'chkdsk\' Timeout");
+            System.Windows.Forms.TreeNode treeNode55 = new System.Windows.Forms.TreeNode("Enable Legacy Boot Controls");
+            System.Windows.Forms.TreeNode treeNode56 = new System.Windows.Forms.TreeNode("Always Display Boot Controls");
+            System.Windows.Forms.TreeNode treeNode57 = new System.Windows.Forms.TreeNode("Disable Background Blur in LogonUI");
+            System.Windows.Forms.TreeNode treeNode58 = new System.Windows.Forms.TreeNode("Disable Networks Button in LogonUI");
+            System.Windows.Forms.TreeNode treeNode59 = new System.Windows.Forms.TreeNode("Disable Power Button in LogonUI");
+            System.Windows.Forms.TreeNode treeNode60 = new System.Windows.Forms.TreeNode("LogonUI Appearance", new System.Windows.Forms.TreeNode[] {
+            treeNode57,
             treeNode58,
-            treeNode59,
-            treeNode60});
-            System.Windows.Forms.TreeNode treeNode62 = new System.Windows.Forms.TreeNode("Disable Windows Logo");
-            System.Windows.Forms.TreeNode treeNode63 = new System.Windows.Forms.TreeNode("Disable Loading Circle");
-            System.Windows.Forms.TreeNode treeNode64 = new System.Windows.Forms.TreeNode("Disable Boot Messages");
-            System.Windows.Forms.TreeNode treeNode65 = new System.Windows.Forms.TreeNode("Startup Appearance", new System.Windows.Forms.TreeNode[] {
+            treeNode59});
+            System.Windows.Forms.TreeNode treeNode61 = new System.Windows.Forms.TreeNode("Disable Windows Logo");
+            System.Windows.Forms.TreeNode treeNode62 = new System.Windows.Forms.TreeNode("Disable Loading Circle");
+            System.Windows.Forms.TreeNode treeNode63 = new System.Windows.Forms.TreeNode("Disable Boot Messages");
+            System.Windows.Forms.TreeNode treeNode64 = new System.Windows.Forms.TreeNode("Startup Appearance", new System.Windows.Forms.TreeNode[] {
+            treeNode61,
             treeNode62,
-            treeNode63,
-            treeNode64});
-            System.Windows.Forms.TreeNode treeNode66 = new System.Windows.Forms.TreeNode("Boot & Logon", new System.Windows.Forms.TreeNode[] {
+            treeNode63});
+            System.Windows.Forms.TreeNode treeNode65 = new System.Windows.Forms.TreeNode("Boot & Logon", new System.Windows.Forms.TreeNode[] {
+            treeNode50,
             treeNode51,
             treeNode52,
             treeNode53,
             treeNode54,
             treeNode55,
             treeNode56,
-            treeNode57,
-            treeNode61,
-            treeNode65});
-            System.Windows.Forms.TreeNode treeNode67 = new System.Windows.Forms.TreeNode("Tweak Split Threshold for \'svchost\'");
-            System.Windows.Forms.TreeNode treeNode68 = new System.Windows.Forms.TreeNode("Enable Installer Services in Safe Mode");
-            System.Windows.Forms.TreeNode treeNode69 = new System.Windows.Forms.TreeNode("Enable Windows Version Display on Desktop");
-            System.Windows.Forms.TreeNode treeNode70 = new System.Windows.Forms.TreeNode("Enable Legacy Windows Photo Viewer");
-            System.Windows.Forms.TreeNode treeNode71 = new System.Windows.Forms.TreeNode("Enable Manual BSOD Hotkey");
-            System.Windows.Forms.TreeNode treeNode72 = new System.Windows.Forms.TreeNode("Enable Verbose BSODs");
-            System.Windows.Forms.TreeNode treeNode73 = new System.Windows.Forms.TreeNode("Disable Legacy Reporting");
-            System.Windows.Forms.TreeNode treeNode74 = new System.Windows.Forms.TreeNode("Disable Sad Face");
-            System.Windows.Forms.TreeNode treeNode75 = new System.Windows.Forms.TreeNode("Manage Errors", new System.Windows.Forms.TreeNode[] {
+            treeNode60,
+            treeNode64});
+            System.Windows.Forms.TreeNode treeNode66 = new System.Windows.Forms.TreeNode("Tweak Split Threshold for \'svchost\'");
+            System.Windows.Forms.TreeNode treeNode67 = new System.Windows.Forms.TreeNode("Enable Installer Services in Safe Mode");
+            System.Windows.Forms.TreeNode treeNode68 = new System.Windows.Forms.TreeNode("Enable Windows Version Display on Desktop");
+            System.Windows.Forms.TreeNode treeNode69 = new System.Windows.Forms.TreeNode("Enable Legacy Windows Photo Viewer");
+            System.Windows.Forms.TreeNode treeNode70 = new System.Windows.Forms.TreeNode("Enable Manual BSOD Hotkey");
+            System.Windows.Forms.TreeNode treeNode71 = new System.Windows.Forms.TreeNode("Enable Verbose BSODs");
+            System.Windows.Forms.TreeNode treeNode72 = new System.Windows.Forms.TreeNode("Disable Legacy Reporting");
+            System.Windows.Forms.TreeNode treeNode73 = new System.Windows.Forms.TreeNode("Disable Sad Face");
+            System.Windows.Forms.TreeNode treeNode74 = new System.Windows.Forms.TreeNode("Manage Errors", new System.Windows.Forms.TreeNode[] {
+            treeNode70,
             treeNode71,
             treeNode72,
-            treeNode73,
-            treeNode74});
-            System.Windows.Forms.TreeNode treeNode76 = new System.Windows.Forms.TreeNode("Advanced", new System.Windows.Forms.TreeNode[] {
+            treeNode73});
+            System.Windows.Forms.TreeNode treeNode75 = new System.Windows.Forms.TreeNode("Advanced", new System.Windows.Forms.TreeNode[] {
+            treeNode66,
             treeNode67,
             treeNode68,
             treeNode69,
-            treeNode70,
-            treeNode75});
-            System.Windows.Forms.TreeNode treeNode77 = new System.Windows.Forms.TreeNode("Tweak Search Box Tooltip");
-            System.Windows.Forms.TreeNode treeNode78 = new System.Windows.Forms.TreeNode("Enable Legacy Search Background");
-            System.Windows.Forms.TreeNode treeNode79 = new System.Windows.Forms.TreeNode("Cortana", new System.Windows.Forms.TreeNode[] {
-            treeNode77,
-            treeNode78});
-            System.Windows.Forms.TreeNode treeNode80 = new System.Windows.Forms.TreeNode("Disable Action Center");
-            System.Windows.Forms.TreeNode treeNode81 = new System.Windows.Forms.TreeNode("Keep Action Center Open");
-            System.Windows.Forms.TreeNode treeNode82 = new System.Windows.Forms.TreeNode("Disable 8/10 Live Tiles");
-            System.Windows.Forms.TreeNode treeNode83 = new System.Windows.Forms.TreeNode("Disable Quick Action Buttons");
-            System.Windows.Forms.TreeNode treeNode84 = new System.Windows.Forms.TreeNode("Disable Task View Hover Shortcut");
-            System.Windows.Forms.TreeNode treeNode85 = new System.Windows.Forms.TreeNode("Enable Windows 7 Volume Flyout");
-            System.Windows.Forms.TreeNode treeNode86 = new System.Windows.Forms.TreeNode("Enable Windows 8 Network Flyout");
-            System.Windows.Forms.TreeNode treeNode87 = new System.Windows.Forms.TreeNode("Enable Legacy Balloon Tooltips");
-            System.Windows.Forms.TreeNode treeNode88 = new System.Windows.Forms.TreeNode("Show Seconds in Taskbar Clock");
-            System.Windows.Forms.TreeNode treeNode89 = new System.Windows.Forms.TreeNode("Desktop", new System.Windows.Forms.TreeNode[] {
+            treeNode74});
+            System.Windows.Forms.TreeNode treeNode76 = new System.Windows.Forms.TreeNode("Tweak Search Box Tooltip");
+            System.Windows.Forms.TreeNode treeNode77 = new System.Windows.Forms.TreeNode("Enable Legacy Search Background");
+            System.Windows.Forms.TreeNode treeNode78 = new System.Windows.Forms.TreeNode("Cortana", new System.Windows.Forms.TreeNode[] {
+            treeNode76,
+            treeNode77});
+            System.Windows.Forms.TreeNode treeNode79 = new System.Windows.Forms.TreeNode("Disable Action Center");
+            System.Windows.Forms.TreeNode treeNode80 = new System.Windows.Forms.TreeNode("Keep Action Center Open");
+            System.Windows.Forms.TreeNode treeNode81 = new System.Windows.Forms.TreeNode("Disable 8/10 Live Tiles");
+            System.Windows.Forms.TreeNode treeNode82 = new System.Windows.Forms.TreeNode("Disable Quick Action Buttons");
+            System.Windows.Forms.TreeNode treeNode83 = new System.Windows.Forms.TreeNode("Disable Task View Hover Shortcut");
+            System.Windows.Forms.TreeNode treeNode84 = new System.Windows.Forms.TreeNode("Enable Windows 7 Volume Flyout");
+            System.Windows.Forms.TreeNode treeNode85 = new System.Windows.Forms.TreeNode("Enable Windows 8 Network Flyout");
+            System.Windows.Forms.TreeNode treeNode86 = new System.Windows.Forms.TreeNode("Enable Legacy Balloon Tooltips");
+            System.Windows.Forms.TreeNode treeNode87 = new System.Windows.Forms.TreeNode("Show Seconds in Taskbar Clock");
+            System.Windows.Forms.TreeNode treeNode88 = new System.Windows.Forms.TreeNode("Desktop", new System.Windows.Forms.TreeNode[] {
+            treeNode78,
             treeNode79,
             treeNode80,
             treeNode81,
@@ -197,40 +196,40 @@
             treeNode84,
             treeNode85,
             treeNode86,
-            treeNode87,
-            treeNode88});
-            System.Windows.Forms.TreeNode treeNode90 = new System.Windows.Forms.TreeNode("\'Install\' for CAB Files");
-            System.Windows.Forms.TreeNode treeNode91 = new System.Windows.Forms.TreeNode("\'Extract\' for MSI Files");
-            System.Windows.Forms.TreeNode treeNode92 = new System.Windows.Forms.TreeNode("\'Run\' / \'Modify\' for PS1 Files");
-            System.Windows.Forms.TreeNode treeNode93 = new System.Windows.Forms.TreeNode("\'Open With...\' for BAT Files");
-            System.Windows.Forms.TreeNode treeNode94 = new System.Windows.Forms.TreeNode("\'Run as Admin\' for VBS Files");
-            System.Windows.Forms.TreeNode treeNode95 = new System.Windows.Forms.TreeNode("\'Run as Admin\' for MSI Files");
-            System.Windows.Forms.TreeNode treeNode96 = new System.Windows.Forms.TreeNode("\'Run as Admin\' for PS1 Files");
-            System.Windows.Forms.TreeNode treeNode97 = new System.Windows.Forms.TreeNode("File-Specific Options", new System.Windows.Forms.TreeNode[] {
+            treeNode87});
+            System.Windows.Forms.TreeNode treeNode89 = new System.Windows.Forms.TreeNode("\'Install\' for CAB Files");
+            System.Windows.Forms.TreeNode treeNode90 = new System.Windows.Forms.TreeNode("\'Extract\' for MSI Files");
+            System.Windows.Forms.TreeNode treeNode91 = new System.Windows.Forms.TreeNode("\'Run\' / \'Modify\' for PS1 Files");
+            System.Windows.Forms.TreeNode treeNode92 = new System.Windows.Forms.TreeNode("\'Open With...\' for BAT Files");
+            System.Windows.Forms.TreeNode treeNode93 = new System.Windows.Forms.TreeNode("\'Run as Admin\' for VBS Files");
+            System.Windows.Forms.TreeNode treeNode94 = new System.Windows.Forms.TreeNode("\'Run as Admin\' for MSI Files");
+            System.Windows.Forms.TreeNode treeNode95 = new System.Windows.Forms.TreeNode("\'Run as Admin\' for PS1 Files");
+            System.Windows.Forms.TreeNode treeNode96 = new System.Windows.Forms.TreeNode("File-Specific Options", new System.Windows.Forms.TreeNode[] {
+            treeNode89,
             treeNode90,
             treeNode91,
             treeNode92,
             treeNode93,
             treeNode94,
-            treeNode95,
-            treeNode96});
-            System.Windows.Forms.TreeNode treeNode98 = new System.Windows.Forms.TreeNode("Tweak \'New\' Dropdown");
-            System.Windows.Forms.TreeNode treeNode99 = new System.Windows.Forms.TreeNode("Enable \'Attributes\' Dropdown");
-            System.Windows.Forms.TreeNode treeNode100 = new System.Windows.Forms.TreeNode("Enable \'Bluetooth\' Dropdown");
-            System.Windows.Forms.TreeNode treeNode101 = new System.Windows.Forms.TreeNode("Enable \'Change Owner\'");
-            System.Windows.Forms.TreeNode treeNode102 = new System.Windows.Forms.TreeNode("Restore Legacy Customization Options");
-            System.Windows.Forms.TreeNode treeNode103 = new System.Windows.Forms.TreeNode("Tweak File Threshold for Disabling Options");
-            System.Windows.Forms.TreeNode treeNode104 = new System.Windows.Forms.TreeNode("Enable \'Encryption\' Dropdown");
-            System.Windows.Forms.TreeNode treeNode105 = new System.Windows.Forms.TreeNode("Enable \'File Hash\' Controls");
-            System.Windows.Forms.TreeNode treeNode106 = new System.Windows.Forms.TreeNode("Add Shortcut to End Non-Responding Tasks");
-            System.Windows.Forms.TreeNode treeNode107 = new System.Windows.Forms.TreeNode("Add Shortcut to Lock a Drive with BitLocker");
-            System.Windows.Forms.TreeNode treeNode108 = new System.Windows.Forms.TreeNode("Always Display \'Open in New Process\'");
-            System.Windows.Forms.TreeNode treeNode109 = new System.Windows.Forms.TreeNode("Tweak Default Menu Options");
-            System.Windows.Forms.TreeNode treeNode110 = new System.Windows.Forms.TreeNode("Add Shortcut to Reset Permissions");
-            System.Windows.Forms.TreeNode treeNode111 = new System.Windows.Forms.TreeNode("Add Shortcut to Restart Explorer");
-            System.Windows.Forms.TreeNode treeNode112 = new System.Windows.Forms.TreeNode("Enable \'Run with Priority\' Controls");
-            System.Windows.Forms.TreeNode treeNode113 = new System.Windows.Forms.TreeNode("Add Shortcut to Take Ownership");
-            System.Windows.Forms.TreeNode treeNode114 = new System.Windows.Forms.TreeNode("Context Menus", new System.Windows.Forms.TreeNode[] {
+            treeNode95});
+            System.Windows.Forms.TreeNode treeNode97 = new System.Windows.Forms.TreeNode("Tweak \'New\' Dropdown");
+            System.Windows.Forms.TreeNode treeNode98 = new System.Windows.Forms.TreeNode("Enable \'Attributes\' Dropdown");
+            System.Windows.Forms.TreeNode treeNode99 = new System.Windows.Forms.TreeNode("Enable \'Bluetooth\' Dropdown");
+            System.Windows.Forms.TreeNode treeNode100 = new System.Windows.Forms.TreeNode("Enable \'Change Owner\'");
+            System.Windows.Forms.TreeNode treeNode101 = new System.Windows.Forms.TreeNode("Restore Legacy Customization Options");
+            System.Windows.Forms.TreeNode treeNode102 = new System.Windows.Forms.TreeNode("Tweak File Threshold for Disabling Options");
+            System.Windows.Forms.TreeNode treeNode103 = new System.Windows.Forms.TreeNode("Enable \'Encryption\' Dropdown");
+            System.Windows.Forms.TreeNode treeNode104 = new System.Windows.Forms.TreeNode("Enable \'File Hash\' Controls");
+            System.Windows.Forms.TreeNode treeNode105 = new System.Windows.Forms.TreeNode("Add Shortcut to End Non-Responding Tasks");
+            System.Windows.Forms.TreeNode treeNode106 = new System.Windows.Forms.TreeNode("Add Shortcut to Lock a Drive with BitLocker");
+            System.Windows.Forms.TreeNode treeNode107 = new System.Windows.Forms.TreeNode("Always Display \'Open in New Process\'");
+            System.Windows.Forms.TreeNode treeNode108 = new System.Windows.Forms.TreeNode("Tweak Default Menu Options");
+            System.Windows.Forms.TreeNode treeNode109 = new System.Windows.Forms.TreeNode("Add Shortcut to Reset Permissions");
+            System.Windows.Forms.TreeNode treeNode110 = new System.Windows.Forms.TreeNode("Add Shortcut to Restart Explorer");
+            System.Windows.Forms.TreeNode treeNode111 = new System.Windows.Forms.TreeNode("Enable \'Run with Priority\' Controls");
+            System.Windows.Forms.TreeNode treeNode112 = new System.Windows.Forms.TreeNode("Add Shortcut to Take Ownership");
+            System.Windows.Forms.TreeNode treeNode113 = new System.Windows.Forms.TreeNode("Context Menus", new System.Windows.Forms.TreeNode[] {
+            treeNode96,
             treeNode97,
             treeNode98,
             treeNode99,
@@ -246,49 +245,48 @@
             treeNode109,
             treeNode110,
             treeNode111,
-            treeNode112,
-            treeNode113});
-            System.Windows.Forms.TreeNode treeNode115 = new System.Windows.Forms.TreeNode("Disable Telemetry");
-            System.Windows.Forms.TreeNode treeNode116 = new System.Windows.Forms.TreeNode("Disable Password Reveal Button");
-            System.Windows.Forms.TreeNode treeNode117 = new System.Windows.Forms.TreeNode("Disable Windows Recall");
-            System.Windows.Forms.TreeNode treeNode118 = new System.Windows.Forms.TreeNode("Privacy", new System.Windows.Forms.TreeNode[] {
-            treeNode115,
-            treeNode116,
-            treeNode117});
-            System.Windows.Forms.TreeNode treeNode119 = new System.Windows.Forms.TreeNode("Behavior", new System.Windows.Forms.TreeNode[] {
-            treeNode40,
-            treeNode50,
-            treeNode66,
-            treeNode76,
-            treeNode89,
+            treeNode112});
+            System.Windows.Forms.TreeNode treeNode114 = new System.Windows.Forms.TreeNode("Disable Telemetry");
+            System.Windows.Forms.TreeNode treeNode115 = new System.Windows.Forms.TreeNode("Disable Password Reveal Button");
+            System.Windows.Forms.TreeNode treeNode116 = new System.Windows.Forms.TreeNode("Disable Windows Recall");
+            System.Windows.Forms.TreeNode treeNode117 = new System.Windows.Forms.TreeNode("Privacy", new System.Windows.Forms.TreeNode[] {
             treeNode114,
-            treeNode118});
-            System.Windows.Forms.TreeNode treeNode120 = new System.Windows.Forms.TreeNode("Purge \'Microsoft Edge\'");
-            System.Windows.Forms.TreeNode treeNode121 = new System.Windows.Forms.TreeNode("Purge \'Copilot AI\'");
-            System.Windows.Forms.TreeNode treeNode122 = new System.Windows.Forms.TreeNode("Purge \'Office 365\'");
-            System.Windows.Forms.TreeNode treeNode123 = new System.Windows.Forms.TreeNode("Purge \'Copilot\' in Paint");
-            System.Windows.Forms.TreeNode treeNode124 = new System.Windows.Forms.TreeNode("Purge \'Copilot\' in Notepad");
-            System.Windows.Forms.TreeNode treeNode125 = new System.Windows.Forms.TreeNode("Purge AI System Servicecs");
-            System.Windows.Forms.TreeNode treeNode126 = new System.Windows.Forms.TreeNode("Individual Purges", new System.Windows.Forms.TreeNode[] {
+            treeNode115,
+            treeNode116});
+            System.Windows.Forms.TreeNode treeNode118 = new System.Windows.Forms.TreeNode("Behavior", new System.Windows.Forms.TreeNode[] {
+            treeNode39,
+            treeNode49,
+            treeNode65,
+            treeNode75,
+            treeNode88,
+            treeNode113,
+            treeNode117});
+            System.Windows.Forms.TreeNode treeNode119 = new System.Windows.Forms.TreeNode("Purge \'Microsoft Edge\'");
+            System.Windows.Forms.TreeNode treeNode120 = new System.Windows.Forms.TreeNode("Purge \'Copilot AI\'");
+            System.Windows.Forms.TreeNode treeNode121 = new System.Windows.Forms.TreeNode("Purge \'Office 365\'");
+            System.Windows.Forms.TreeNode treeNode122 = new System.Windows.Forms.TreeNode("Purge \'Copilot\' in Paint");
+            System.Windows.Forms.TreeNode treeNode123 = new System.Windows.Forms.TreeNode("Purge \'Copilot\' in Notepad");
+            System.Windows.Forms.TreeNode treeNode124 = new System.Windows.Forms.TreeNode("Purge AI System Servicecs");
+            System.Windows.Forms.TreeNode treeNode125 = new System.Windows.Forms.TreeNode("Individual Purges", new System.Windows.Forms.TreeNode[] {
+            treeNode119,
             treeNode120,
             treeNode121,
             treeNode122,
             treeNode123,
-            treeNode124,
-            treeNode125});
-            System.Windows.Forms.TreeNode treeNode127 = new System.Windows.Forms.TreeNode("Run for Windows 10");
-            System.Windows.Forms.TreeNode treeNode128 = new System.Windows.Forms.TreeNode("Run for Windows 11");
-            System.Windows.Forms.TreeNode treeNode129 = new System.Windows.Forms.TreeNode("Run Full Debloat", new System.Windows.Forms.TreeNode[] {
-            treeNode127,
-            treeNode128});
-            System.Windows.Forms.TreeNode treeNode130 = new System.Windows.Forms.TreeNode("Purge", new System.Windows.Forms.TreeNode[] {
+            treeNode124});
+            System.Windows.Forms.TreeNode treeNode126 = new System.Windows.Forms.TreeNode("Run for Windows 10");
+            System.Windows.Forms.TreeNode treeNode127 = new System.Windows.Forms.TreeNode("Run for Windows 11");
+            System.Windows.Forms.TreeNode treeNode128 = new System.Windows.Forms.TreeNode("Run Full Debloat", new System.Windows.Forms.TreeNode[] {
             treeNode126,
-            treeNode129});
-            System.Windows.Forms.TreeNode treeNode131 = new System.Windows.Forms.TreeNode("Check Windows Activation Status");
-            System.Windows.Forms.TreeNode treeNode132 = new System.Windows.Forms.TreeNode("Run Windows Activation Script");
-            System.Windows.Forms.TreeNode treeNode133 = new System.Windows.Forms.TreeNode("Activation", new System.Windows.Forms.TreeNode[] {
-            treeNode131,
-            treeNode132});
+            treeNode127});
+            System.Windows.Forms.TreeNode treeNode129 = new System.Windows.Forms.TreeNode("Purge", new System.Windows.Forms.TreeNode[] {
+            treeNode125,
+            treeNode128});
+            System.Windows.Forms.TreeNode treeNode130 = new System.Windows.Forms.TreeNode("Check Windows Activation Status");
+            System.Windows.Forms.TreeNode treeNode131 = new System.Windows.Forms.TreeNode("Run Windows Activation Script");
+            System.Windows.Forms.TreeNode treeNode132 = new System.Windows.Forms.TreeNode("Activation", new System.Windows.Forms.TreeNode[] {
+            treeNode130,
+            treeNode131});
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -430,260 +428,258 @@
             treeNode8.Text = "Enable Hidden \'Education\' Themes";
             treeNode9.Name = "ThemeScreensave";
             treeNode9.Text = "Manage Screen Savers";
-            treeNode10.Name = "ThemeTaskbar";
-            treeNode10.Text = "Increase Transparency on Taskbar";
-            treeNode11.Name = "AppTheme";
-            treeNode11.Text = "Theming";
-            treeNode12.Name = "AppAdAltTab";
-            treeNode12.Text = "Alt+Tab Appearance";
-            treeNode13.Name = "AppAdInactive";
-            treeNode13.Text = "Inactive Title Bar Color";
-            treeNode14.Name = "AppAdSlowAnim";
-            treeNode14.Text = "Slow Animations Hotkey";
-            treeNode15.Name = "AppAdEditStartup";
-            treeNode15.Text = "Edit Startup Sound";
-            treeNode16.Name = "AppAdIconConf";
-            treeNode16.Text = "Edit Icon Spacing";
-            treeNode17.Name = "AppAdEditRCM";
-            treeNode17.Text = "Edit Context Menu Height";
-            treeNode18.Name = "AppAdEditScroll";
-            treeNode18.Text = "Edit Scrollbar Dimensions";
-            treeNode19.Name = "AppAdEditBord";
-            treeNode19.Text = "Edit Window Border Sizes";
-            treeNode20.Name = "AppAdEditTitleHeight";
-            treeNode20.Text = "Edit Window Title Heights";
-            treeNode21.Name = "AppAdEditFonts";
-            treeNode21.Text = "Change System Font Defaults";
-            treeNode22.Name = "AppAdFlashCount";
-            treeNode22.Text = "Tweak Taskbar Flash Count";
-            treeNode23.Name = "AppAdTaskbarWidth";
-            treeNode23.Text = "Tweak Item Width in Taskbar";
-            treeNode24.Name = "AppAdvanced";
-            treeNode24.Text = "Advanced";
-            treeNode25.Name = "AppConfThemes";
-            treeNode25.Text = "Tweak Theme Behavior";
-            treeNode26.Name = "AppConfRevert";
-            treeNode26.Text = "Revert Appearance Options";
-            treeNode27.Name = "AppConfigure";
-            treeNode27.Text = "Configuration";
-            treeNode28.Name = "AppHead";
-            treeNode28.Text = "Appearance";
-            treeNode29.Name = "BeDisableAds";
-            treeNode29.Text = "Disable Advertising";
-            treeNode30.Name = "BeDisableSearch";
-            treeNode30.Text = "Disable Web Results in Search";
-            treeNode31.Name = "BeRegBackup";
-            treeNode31.Text = "Enable Registry Backups";
-            treeNode32.Name = "BeAeroShake";
-            treeNode32.Text = "Enable Aero Shake";
-            treeNode33.Name = "BeStoreUpsell";
-            treeNode33.Text = "Disable Microsoft Store Upselling";
-            treeNode34.Name = "BeSecMain";
-            treeNode34.Text = "Disable Idle Maintenance";
-            treeNode35.Name = "BeLegacyBlock";
-            treeNode35.Text = "Disable Legacy File Download Block";
-            treeNode36.Name = "BeODUser";
-            treeNode36.Text = "Disable OneDrive User Folder Backup";
-            treeNode37.Name = "BeEmojiPick";
-            treeNode37.Text = "Enable Emoji Picker for All Languages";
-            treeNode38.Name = "BeKeepThumb";
-            treeNode38.Text = "Never Remove File Thumbnail Cache";
-            treeNode39.Name = "BePrintSound";
-            treeNode39.Text = "Tweak PrintScreen Key Press Sound";
-            treeNode40.Name = "BeGeneral";
-            treeNode40.Text = "General Tweaks";
-            treeNode41.Name = "BeDisableSmart";
-            treeNode41.Text = "Disable Windows SmartScreen";
-            treeNode42.Name = "UpdDriver";
-            treeNode42.Text = "Disable Driver Updates";
-            treeNode43.Name = "UpdApps";
-            treeNode43.Text = "Disable Store Application Updates";
-            treeNode44.Name = "UpdDisable";
-            treeNode44.Text = "Disable System & Security Updates";
-            treeNode45.Name = "UpdMRT";
-            treeNode45.Text = "Disable MRT Installation";
-            treeNode46.Name = "UpdUAC";
-            treeNode46.Text = "Disable UAC";
-            treeNode47.Name = "UpdAdmin";
-            treeNode47.Text = "Enable Hidden Admin User";
-            treeNode48.Name = "UpdUACAdmin";
-            treeNode48.Text = "Enable UAC for Admin User";
-            treeNode49.Name = "UpdDefender";
-            treeNode49.Text = "Disable Windows Defender";
-            treeNode50.Name = "BeUpdates";
-            treeNode50.Text = "Windows Updates & Security";
-            treeNode51.Name = "BootCAD";
-            treeNode51.Text = "Enable CtrlAltDel Requirement";
-            treeNode52.Name = "BootVerbose";
-            treeNode52.Text = "Enable Verbose Boot Messages";
-            treeNode53.Name = "BootLoginMsg";
-            treeNode53.Text = "Tweak Login Message";
-            treeNode54.Name = "BootFinishSet";
-            treeNode54.Text = "Disable Setup Upselling";
-            treeNode55.Name = "BootChk";
-            treeNode55.Text = "Tweak \'chkdsk\' Timeout";
-            treeNode56.Name = "BootLegacyMenu";
-            treeNode56.Text = "Enable Legacy Boot Controls";
-            treeNode57.Name = "BootAlwaysMenu";
-            treeNode57.Text = "Always Display Boot Controls";
-            treeNode58.Name = "BootLoginBlur";
-            treeNode58.Text = "Disable Background Blur in LogonUI";
-            treeNode59.Name = "BootLoginNet";
-            treeNode59.Text = "Disable Networks Button in LogonUI";
-            treeNode60.Name = "BootLoginPower";
-            treeNode60.Text = "Disable Power Button in LogonUI";
-            treeNode61.Name = "BootLogonUI";
-            treeNode61.Text = "LogonUI Appearance";
-            treeNode62.Name = "StartupDisableWindows";
-            treeNode62.Text = "Disable Windows Logo";
-            treeNode63.Name = "StartupDisableCircle";
-            treeNode63.Text = "Disable Loading Circle";
-            treeNode64.Name = "StartupDisableText";
-            treeNode64.Text = "Disable Boot Messages";
-            treeNode65.Name = "BootApp";
-            treeNode65.Text = "Startup Appearance";
-            treeNode66.Name = "BeBootLogin";
-            treeNode66.Text = "Boot & Logon";
-            treeNode67.Name = "BeAdvSplit";
-            treeNode67.Text = "Tweak Split Threshold for \'svchost\'";
-            treeNode68.Name = "BeAdvSafeInst";
-            treeNode68.Text = "Enable Installer Services in Safe Mode";
-            treeNode69.Name = "BeAdvWinver";
-            treeNode69.Text = "Enable Windows Version Display on Desktop";
-            treeNode70.Name = "BeAdvLegacyPhotos";
-            treeNode70.Text = "Enable Legacy Windows Photo Viewer";
-            treeNode71.Name = "BeCtrlScrl";
-            treeNode71.Text = "Enable Manual BSOD Hotkey";
-            treeNode72.Name = "ErrVerbose";
-            treeNode72.Text = "Enable Verbose BSODs";
-            treeNode73.Name = "ErrDisable";
-            treeNode73.Text = "Disable Legacy Reporting";
-            treeNode74.Name = "ErrSad";
-            treeNode74.Text = "Disable Sad Face";
-            treeNode75.Name = "BeErrorsSect";
-            treeNode75.Text = "Manage Errors";
-            treeNode76.Name = "BeAdv";
-            treeNode76.Text = "Advanced";
-            treeNode77.Name = "CortSearch";
-            treeNode77.Text = "Tweak Search Box Tooltip";
-            treeNode78.Name = "CortLegacyBox";
-            treeNode78.Text = "Enable Legacy Search Background";
-            treeNode79.Name = "DeskCortana";
-            treeNode79.Text = "Cortana";
-            treeNode80.Name = "DeskDisableAC";
-            treeNode80.Text = "Disable Action Center";
-            treeNode81.Name = "DeskACOpen";
-            treeNode81.Text = "Keep Action Center Open";
-            treeNode82.Name = "DeskLiveTiles";
-            treeNode82.Text = "Disable 8/10 Live Tiles";
-            treeNode83.Name = "DeskQuickBtns";
-            treeNode83.Text = "Disable Quick Action Buttons";
-            treeNode84.Name = "DeskTaskViewHover";
-            treeNode84.Text = "Disable Task View Hover Shortcut";
-            treeNode85.Name = "DeskSevenVol";
-            treeNode85.Text = "Enable Windows 7 Volume Flyout";
-            treeNode86.Name = "DeskEightNet";
-            treeNode86.Text = "Enable Windows 8 Network Flyout";
-            treeNode87.Name = "DeskBalloon";
-            treeNode87.Text = "Enable Legacy Balloon Tooltips";
-            treeNode88.Name = "DeskSeconds";
-            treeNode88.Text = "Show Seconds in Taskbar Clock";
-            treeNode89.Name = "BeDesktop";
-            treeNode89.Text = "Desktop";
-            treeNode90.Name = "ContInstallCAB";
-            treeNode90.Text = "\'Install\' for CAB Files";
-            treeNode91.Name = "ContExtractMSI";
-            treeNode91.Text = "\'Extract\' for MSI Files";
-            treeNode92.Name = "ContRunPS1";
-            treeNode92.Text = "\'Run\' / \'Modify\' for PS1 Files";
-            treeNode93.Name = "ContOpenWithBAT";
-            treeNode93.Text = "\'Open With...\' for BAT Files";
-            treeNode94.Name = "ContAdminVBS";
-            treeNode94.Text = "\'Run as Admin\' for VBS Files";
-            treeNode95.Name = "ContAdminMSI";
-            treeNode95.Text = "\'Run as Admin\' for MSI Files";
-            treeNode96.Name = "ContAdminPS1";
-            treeNode96.Text = "\'Run as Admin\' for PS1 Files";
-            treeNode97.Name = "ContFile";
-            treeNode97.Text = "File-Specific Options";
-            treeNode98.Name = "ContDesktopNew";
-            treeNode98.Text = "Tweak \'New\' Dropdown";
-            treeNode99.Name = "ContAttrib";
-            treeNode99.Text = "Enable \'Attributes\' Dropdown";
-            treeNode100.Name = "ContBluetooth";
-            treeNode100.Text = "Enable \'Bluetooth\' Dropdown";
-            treeNode101.Name = "ContOwner";
-            treeNode101.Text = "Enable \'Change Owner\'";
-            treeNode102.Name = "ContRestOld";
-            treeNode102.Text = "Restore Legacy Customization Options";
-            treeNode103.Name = "ContThresh";
-            treeNode103.Text = "Tweak File Threshold for Disabling Options";
-            treeNode104.Name = "ContEncrypt";
-            treeNode104.Text = "Enable \'Encryption\' Dropdown";
-            treeNode105.Name = "ContHash";
-            treeNode105.Text = "Enable \'File Hash\' Controls";
-            treeNode106.Name = "ContNotResp";
-            treeNode106.Text = "Add Shortcut to End Non-Responding Tasks";
-            treeNode107.Name = "ContBitlock";
-            treeNode107.Text = "Add Shortcut to Lock a Drive with BitLocker";
-            treeNode108.Name = "ContProcess";
-            treeNode108.Text = "Always Display \'Open in New Process\'";
-            treeNode109.Name = "ContDefaults";
-            treeNode109.Text = "Tweak Default Menu Options";
-            treeNode110.Name = "ContResetPerm";
-            treeNode110.Text = "Add Shortcut to Reset Permissions";
-            treeNode111.Name = "ContRestartExpl";
-            treeNode111.Text = "Add Shortcut to Restart Explorer";
-            treeNode112.Name = "ContPriority";
-            treeNode112.Text = "Enable \'Run with Priority\' Controls";
-            treeNode113.Name = "ContTakeOwner";
-            treeNode113.Text = "Add Shortcut to Take Ownership";
-            treeNode114.Name = "BeContext";
-            treeNode114.Text = "Context Menus";
-            treeNode115.Name = "PrivTelem";
-            treeNode115.Text = "Disable Telemetry";
-            treeNode116.Name = "PrivReveal";
-            treeNode116.Text = "Disable Password Reveal Button";
-            treeNode117.Name = "PrivRecall";
-            treeNode117.Text = "Disable Windows Recall";
-            treeNode118.Name = "BePrivate";
-            treeNode118.Text = "Privacy";
-            treeNode119.Name = "BehaveHead";
-            treeNode119.Text = "Behavior";
-            treeNode120.Name = "PurgeEdge";
-            treeNode120.Text = "Purge \'Microsoft Edge\'";
-            treeNode121.Name = "PurgeAI";
-            treeNode121.Text = "Purge \'Copilot AI\'";
-            treeNode122.Name = "Purge365";
-            treeNode122.Text = "Purge \'Office 365\'";
-            treeNode123.Name = "PurgeAIPaint";
-            treeNode123.Text = "Purge \'Copilot\' in Paint";
-            treeNode124.Name = "PurgeAINotepad";
-            treeNode124.Text = "Purge \'Copilot\' in Notepad";
-            treeNode125.Name = "PurgeAIServices";
-            treeNode125.Text = "Purge AI System Servicecs";
-            treeNode126.Name = "PurgeInd";
-            treeNode126.Text = "Individual Purges";
-            treeNode127.Name = "DebloatWindows10";
-            treeNode127.Text = "Run for Windows 10";
-            treeNode128.Name = "DebloatWindows11";
-            treeNode128.Text = "Run for Windows 11";
-            treeNode129.Name = "PurgeMaster";
-            treeNode129.Text = "Run Full Debloat";
-            treeNode130.Name = "PurgeHead";
-            treeNode130.Text = "Purge";
-            treeNode131.Name = "ActWindowsValid";
-            treeNode131.Text = "Check Windows Activation Status";
-            treeNode132.Name = "ActRun";
-            treeNode132.Text = "Run Windows Activation Script";
-            treeNode133.Name = "ActivateHead";
-            treeNode133.Text = "Activation";
+            treeNode10.Name = "AppTheme";
+            treeNode10.Text = "Theming";
+            treeNode11.Name = "AppAdAltTab";
+            treeNode11.Text = "Alt+Tab Appearance";
+            treeNode12.Name = "AppAdInactive";
+            treeNode12.Text = "Inactive Title Bar Color";
+            treeNode13.Name = "AppAdSlowAnim";
+            treeNode13.Text = "Slow Animations Hotkey";
+            treeNode14.Name = "AppAdEditStartup";
+            treeNode14.Text = "Edit Startup Sound";
+            treeNode15.Name = "AppAdIconConf";
+            treeNode15.Text = "Edit Icon Spacing";
+            treeNode16.Name = "AppAdEditRCM";
+            treeNode16.Text = "Edit Context Menu Height";
+            treeNode17.Name = "AppAdEditScroll";
+            treeNode17.Text = "Edit Scrollbar Dimensions";
+            treeNode18.Name = "AppAdEditBord";
+            treeNode18.Text = "Edit Window Border Sizes";
+            treeNode19.Name = "AppAdEditTitleHeight";
+            treeNode19.Text = "Edit Window Title Heights";
+            treeNode20.Name = "AppAdEditFonts";
+            treeNode20.Text = "Change System Font Defaults";
+            treeNode21.Name = "AppAdFlashCount";
+            treeNode21.Text = "Tweak Taskbar Flash Count";
+            treeNode22.Name = "AppAdTaskbarWidth";
+            treeNode22.Text = "Tweak Item Width in Taskbar";
+            treeNode23.Name = "AppAdvanced";
+            treeNode23.Text = "Advanced";
+            treeNode24.Name = "AppConfThemes";
+            treeNode24.Text = "Tweak Theme Behavior";
+            treeNode25.Name = "AppConfRevert";
+            treeNode25.Text = "Revert Appearance Options";
+            treeNode26.Name = "AppConfigure";
+            treeNode26.Text = "Configuration";
+            treeNode27.Name = "AppHead";
+            treeNode27.Text = "Appearance";
+            treeNode28.Name = "BeDisableAds";
+            treeNode28.Text = "Disable Advertising";
+            treeNode29.Name = "BeDisableSearch";
+            treeNode29.Text = "Disable Web Results in Search";
+            treeNode30.Name = "BeRegBackup";
+            treeNode30.Text = "Enable Registry Backups";
+            treeNode31.Name = "BeAeroShake";
+            treeNode31.Text = "Enable Aero Shake";
+            treeNode32.Name = "BeStoreUpsell";
+            treeNode32.Text = "Disable Microsoft Store Upselling";
+            treeNode33.Name = "BeSecMain";
+            treeNode33.Text = "Disable Idle Maintenance";
+            treeNode34.Name = "BeLegacyBlock";
+            treeNode34.Text = "Disable Legacy File Download Block";
+            treeNode35.Name = "BeODUser";
+            treeNode35.Text = "Disable OneDrive User Folder Backup";
+            treeNode36.Name = "BeEmojiPick";
+            treeNode36.Text = "Enable Emoji Picker for All Languages";
+            treeNode37.Name = "BeKeepThumb";
+            treeNode37.Text = "Never Remove File Thumbnail Cache";
+            treeNode38.Name = "BePrintSound";
+            treeNode38.Text = "Tweak PrintScreen Key Press Sound";
+            treeNode39.Name = "BeGeneral";
+            treeNode39.Text = "General Tweaks";
+            treeNode40.Name = "BeDisableSmart";
+            treeNode40.Text = "Disable Windows SmartScreen";
+            treeNode41.Name = "UpdDriver";
+            treeNode41.Text = "Disable Driver Updates";
+            treeNode42.Name = "UpdApps";
+            treeNode42.Text = "Disable Store Application Updates";
+            treeNode43.Name = "UpdDisable";
+            treeNode43.Text = "Disable System & Security Updates";
+            treeNode44.Name = "UpdMRT";
+            treeNode44.Text = "Disable MRT Installation";
+            treeNode45.Name = "UpdUAC";
+            treeNode45.Text = "Disable UAC";
+            treeNode46.Name = "UpdAdmin";
+            treeNode46.Text = "Enable Hidden Admin User";
+            treeNode47.Name = "UpdUACAdmin";
+            treeNode47.Text = "Enable UAC for Admin User";
+            treeNode48.Name = "UpdDefender";
+            treeNode48.Text = "Disable Windows Defender";
+            treeNode49.Name = "BeUpdates";
+            treeNode49.Text = "Windows Updates & Security";
+            treeNode50.Name = "BootCAD";
+            treeNode50.Text = "Enable CtrlAltDel Requirement";
+            treeNode51.Name = "BootVerbose";
+            treeNode51.Text = "Enable Verbose Boot Messages";
+            treeNode52.Name = "BootLoginMsg";
+            treeNode52.Text = "Tweak Login Message";
+            treeNode53.Name = "BootFinishSet";
+            treeNode53.Text = "Disable Setup Upselling";
+            treeNode54.Name = "BootChk";
+            treeNode54.Text = "Tweak \'chkdsk\' Timeout";
+            treeNode55.Name = "BootLegacyMenu";
+            treeNode55.Text = "Enable Legacy Boot Controls";
+            treeNode56.Name = "BootAlwaysMenu";
+            treeNode56.Text = "Always Display Boot Controls";
+            treeNode57.Name = "BootLoginBlur";
+            treeNode57.Text = "Disable Background Blur in LogonUI";
+            treeNode58.Name = "BootLoginNet";
+            treeNode58.Text = "Disable Networks Button in LogonUI";
+            treeNode59.Name = "BootLoginPower";
+            treeNode59.Text = "Disable Power Button in LogonUI";
+            treeNode60.Name = "BootLogonUI";
+            treeNode60.Text = "LogonUI Appearance";
+            treeNode61.Name = "StartupDisableWindows";
+            treeNode61.Text = "Disable Windows Logo";
+            treeNode62.Name = "StartupDisableCircle";
+            treeNode62.Text = "Disable Loading Circle";
+            treeNode63.Name = "StartupDisableText";
+            treeNode63.Text = "Disable Boot Messages";
+            treeNode64.Name = "BootApp";
+            treeNode64.Text = "Startup Appearance";
+            treeNode65.Name = "BeBootLogin";
+            treeNode65.Text = "Boot & Logon";
+            treeNode66.Name = "BeAdvSplit";
+            treeNode66.Text = "Tweak Split Threshold for \'svchost\'";
+            treeNode67.Name = "BeAdvSafeInst";
+            treeNode67.Text = "Enable Installer Services in Safe Mode";
+            treeNode68.Name = "BeAdvWinver";
+            treeNode68.Text = "Enable Windows Version Display on Desktop";
+            treeNode69.Name = "BeAdvLegacyPhotos";
+            treeNode69.Text = "Enable Legacy Windows Photo Viewer";
+            treeNode70.Name = "BeCtrlScrl";
+            treeNode70.Text = "Enable Manual BSOD Hotkey";
+            treeNode71.Name = "ErrVerbose";
+            treeNode71.Text = "Enable Verbose BSODs";
+            treeNode72.Name = "ErrDisable";
+            treeNode72.Text = "Disable Legacy Reporting";
+            treeNode73.Name = "ErrSad";
+            treeNode73.Text = "Disable Sad Face";
+            treeNode74.Name = "BeErrorsSect";
+            treeNode74.Text = "Manage Errors";
+            treeNode75.Name = "BeAdv";
+            treeNode75.Text = "Advanced";
+            treeNode76.Name = "CortSearch";
+            treeNode76.Text = "Tweak Search Box Tooltip";
+            treeNode77.Name = "CortLegacyBox";
+            treeNode77.Text = "Enable Legacy Search Background";
+            treeNode78.Name = "DeskCortana";
+            treeNode78.Text = "Cortana";
+            treeNode79.Name = "DeskDisableAC";
+            treeNode79.Text = "Disable Action Center";
+            treeNode80.Name = "DeskACOpen";
+            treeNode80.Text = "Keep Action Center Open";
+            treeNode81.Name = "DeskLiveTiles";
+            treeNode81.Text = "Disable 8/10 Live Tiles";
+            treeNode82.Name = "DeskQuickBtns";
+            treeNode82.Text = "Disable Quick Action Buttons";
+            treeNode83.Name = "DeskTaskViewHover";
+            treeNode83.Text = "Disable Task View Hover Shortcut";
+            treeNode84.Name = "DeskSevenVol";
+            treeNode84.Text = "Enable Windows 7 Volume Flyout";
+            treeNode85.Name = "DeskEightNet";
+            treeNode85.Text = "Enable Windows 8 Network Flyout";
+            treeNode86.Name = "DeskBalloon";
+            treeNode86.Text = "Enable Legacy Balloon Tooltips";
+            treeNode87.Name = "DeskSeconds";
+            treeNode87.Text = "Show Seconds in Taskbar Clock";
+            treeNode88.Name = "BeDesktop";
+            treeNode88.Text = "Desktop";
+            treeNode89.Name = "ContInstallCAB";
+            treeNode89.Text = "\'Install\' for CAB Files";
+            treeNode90.Name = "ContExtractMSI";
+            treeNode90.Text = "\'Extract\' for MSI Files";
+            treeNode91.Name = "ContRunPS1";
+            treeNode91.Text = "\'Run\' / \'Modify\' for PS1 Files";
+            treeNode92.Name = "ContOpenWithBAT";
+            treeNode92.Text = "\'Open With...\' for BAT Files";
+            treeNode93.Name = "ContAdminVBS";
+            treeNode93.Text = "\'Run as Admin\' for VBS Files";
+            treeNode94.Name = "ContAdminMSI";
+            treeNode94.Text = "\'Run as Admin\' for MSI Files";
+            treeNode95.Name = "ContAdminPS1";
+            treeNode95.Text = "\'Run as Admin\' for PS1 Files";
+            treeNode96.Name = "ContFile";
+            treeNode96.Text = "File-Specific Options";
+            treeNode97.Name = "ContDesktopNew";
+            treeNode97.Text = "Tweak \'New\' Dropdown";
+            treeNode98.Name = "ContAttrib";
+            treeNode98.Text = "Enable \'Attributes\' Dropdown";
+            treeNode99.Name = "ContBluetooth";
+            treeNode99.Text = "Enable \'Bluetooth\' Dropdown";
+            treeNode100.Name = "ContOwner";
+            treeNode100.Text = "Enable \'Change Owner\'";
+            treeNode101.Name = "ContRestOld";
+            treeNode101.Text = "Restore Legacy Customization Options";
+            treeNode102.Name = "ContThresh";
+            treeNode102.Text = "Tweak File Threshold for Disabling Options";
+            treeNode103.Name = "ContEncrypt";
+            treeNode103.Text = "Enable \'Encryption\' Dropdown";
+            treeNode104.Name = "ContHash";
+            treeNode104.Text = "Enable \'File Hash\' Controls";
+            treeNode105.Name = "ContNotResp";
+            treeNode105.Text = "Add Shortcut to End Non-Responding Tasks";
+            treeNode106.Name = "ContBitlock";
+            treeNode106.Text = "Add Shortcut to Lock a Drive with BitLocker";
+            treeNode107.Name = "ContProcess";
+            treeNode107.Text = "Always Display \'Open in New Process\'";
+            treeNode108.Name = "ContDefaults";
+            treeNode108.Text = "Tweak Default Menu Options";
+            treeNode109.Name = "ContResetPerm";
+            treeNode109.Text = "Add Shortcut to Reset Permissions";
+            treeNode110.Name = "ContRestartExpl";
+            treeNode110.Text = "Add Shortcut to Restart Explorer";
+            treeNode111.Name = "ContPriority";
+            treeNode111.Text = "Enable \'Run with Priority\' Controls";
+            treeNode112.Name = "ContTakeOwner";
+            treeNode112.Text = "Add Shortcut to Take Ownership";
+            treeNode113.Name = "BeContext";
+            treeNode113.Text = "Context Menus";
+            treeNode114.Name = "PrivTelem";
+            treeNode114.Text = "Disable Telemetry";
+            treeNode115.Name = "PrivReveal";
+            treeNode115.Text = "Disable Password Reveal Button";
+            treeNode116.Name = "PrivRecall";
+            treeNode116.Text = "Disable Windows Recall";
+            treeNode117.Name = "BePrivate";
+            treeNode117.Text = "Privacy";
+            treeNode118.Name = "BehaveHead";
+            treeNode118.Text = "Behavior";
+            treeNode119.Name = "PurgeEdge";
+            treeNode119.Text = "Purge \'Microsoft Edge\'";
+            treeNode120.Name = "PurgeAI";
+            treeNode120.Text = "Purge \'Copilot AI\'";
+            treeNode121.Name = "Purge365";
+            treeNode121.Text = "Purge \'Office 365\'";
+            treeNode122.Name = "PurgeAIPaint";
+            treeNode122.Text = "Purge \'Copilot\' in Paint";
+            treeNode123.Name = "PurgeAINotepad";
+            treeNode123.Text = "Purge \'Copilot\' in Notepad";
+            treeNode124.Name = "PurgeAIServices";
+            treeNode124.Text = "Purge AI System Servicecs";
+            treeNode125.Name = "PurgeInd";
+            treeNode125.Text = "Individual Purges";
+            treeNode126.Name = "DebloatWindows10";
+            treeNode126.Text = "Run for Windows 10";
+            treeNode127.Name = "DebloatWindows11";
+            treeNode127.Text = "Run for Windows 11";
+            treeNode128.Name = "PurgeMaster";
+            treeNode128.Text = "Run Full Debloat";
+            treeNode129.Name = "PurgeHead";
+            treeNode129.Text = "Purge";
+            treeNode130.Name = "ActWindowsValid";
+            treeNode130.Text = "Check Windows Activation Status";
+            treeNode131.Name = "ActRun";
+            treeNode131.Text = "Run Windows Activation Script";
+            treeNode132.Name = "ActivateHead";
+            treeNode132.Text = "Activation";
             this.treeView1.Nodes.AddRange(new System.Windows.Forms.TreeNode[] {
             treeNode4,
-            treeNode28,
-            treeNode119,
-            treeNode130,
-            treeNode133});
+            treeNode27,
+            treeNode118,
+            treeNode129,
+            treeNode132});
             this.treeView1.Size = new System.Drawing.Size(327, 556);
             this.treeView1.TabIndex = 2;
             this.treeView1.AfterSelect += new System.Windows.Forms.TreeViewEventHandler(this.treeView1_AfterSelect);
