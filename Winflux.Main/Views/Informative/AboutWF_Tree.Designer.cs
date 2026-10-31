@@ -55,9 +55,9 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(225, 227);
+            this.button1.Location = new System.Drawing.Point(16, 256);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(189, 23);
+            this.button1.Size = new System.Drawing.Size(411, 23);
             this.button1.TabIndex = 13;
             this.button1.Text = "View Source Code";
             this.button1.UseVisualStyleBackColor = true;
@@ -65,9 +65,9 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(3, 227);
+            this.button2.Location = new System.Drawing.Point(16, 227);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(216, 23);
+            this.button2.Size = new System.Drawing.Size(411, 23);
             this.button2.TabIndex = 12;
             this.button2.Text = "Donate";
             this.button2.UseVisualStyleBackColor = true;
@@ -78,19 +78,18 @@
             this.label3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(267, 150);
+            this.label3.Location = new System.Drawing.Point(238, 151);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(160, 60);
             this.label3.TabIndex = 11;
             this.label3.Text = "No generative AI was\r\nused in the making of\r\nthis project!\r\n";
-            this.label3.TextAlign = System.Drawing.ContentAlignment.BottomRight;
             // 
             // label2
             // 
             this.label2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(256, 49);
+            this.label2.Location = new System.Drawing.Point(241, 46);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(171, 20);
             this.label2.TabIndex = 10;
@@ -101,7 +100,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(292, 12);
+            this.label1.Location = new System.Drawing.Point(238, 9);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(122, 37);
             this.label1.TabIndex = 9;
