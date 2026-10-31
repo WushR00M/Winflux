@@ -68,6 +68,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Winflux.Internal\Libraries\Fluent.cs" />
+    <Compile Include="Winflux.Internal\Libraries\WinFormsFluentLib.cs" />
     <Compile Include="Winflux.Main\Forms\AboutWinflux.cs">
       <SubType>Form</SubType>
     </Compile>
