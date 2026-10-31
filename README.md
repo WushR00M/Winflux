@@ -1,6 +1,6 @@
 # Winflux (beta)
 
-![A screenshot of Winflux's About module.](.github/Winflux_AboutScr.png "Winflux")
+![A screenshot of Winflux's About module.](.github/Winflux_AboutScr.PNG "Winflux")
 
 Winflux is a personal tool to customize your Windows installation to the maximum, featuring tools to purge features and applications, activate your copy of Windows, a built-in recreation of NotMyFault, and more. It is currently in early stages.
 
